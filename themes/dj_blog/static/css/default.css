@@ -35,42 +35,27 @@ div {
   	height: 82px;
 }
 
-.scaling-svg-container {
- position: relative; 
- height: 0; 
- width: 100%; 
- padding: 0;
- padding-bottom: 50%; 
- /* override this inline for aspect ratio other than square */
-}
-.scaling-svg {
- position: absolute; 
- height: 100%; 
- width: 100%; 
- left: 0; 
- top: 0;
+
+.background-container {
+  position: absolute;
+  min-width: 768px;
+  width: 100%;
+  height: 100%;
 }
 
-#circle-title {
-position: absolute;
-margin: -25px 0 0 -250px;
-top: 40%;
-left: 50%;
-width: 500px;
-height: 50px;
-text-align: center;
-font-size: 48px;
-font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+.svg-circle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
 
-#circle-subtext {
-position: absolute;
-margin: -25px 0 0 -200px;
-top: 60%;
-left: 50%;
-width: 400px;
-height: 50px;
-text-align: justify;
-font-size: 18px;
-font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+#svg-circle-title {
+  font-size: 28px;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+#svg-circle-description {
+  text-align: justify;
+  font-size: 14px;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
