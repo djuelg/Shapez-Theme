@@ -50,3 +50,27 @@ div {
  left: 0; 
  top: 0;
 }
+
+#circle-title {
+position: absolute;
+margin: -25px 0 0 -250px;
+top: 40%;
+left: 50%;
+width: 500px;
+height: 50px;
+text-align: center;
+font-size: 48px;
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+#circle-subtext {
+position: absolute;
+margin: -25px 0 0 -200px;
+top: 60%;
+left: 50%;
+width: 400px;
+height: 50px;
+text-align: justify;
+font-size: 18px;
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}

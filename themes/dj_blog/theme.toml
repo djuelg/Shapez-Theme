@@ -1,6 +1,8 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/spf13/hugoThemes#themetoml for an example
 
+#hugo server --theme=Dj_blog --buildDrafts  --bind="0.0.0.0"
+baseurl = "http://0.0.0.0/"
 name = "Dj_blog"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
