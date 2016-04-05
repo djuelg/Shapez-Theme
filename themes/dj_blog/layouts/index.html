@@ -4,7 +4,7 @@
         {{ partial "head.html" . }}
     </head>
     <body>
-         <div class="background-container">
+        <div class="start-screen">
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 3484.000000 1928.000000"
                  preserveAspectRatio="xMidYMid meet">
@@ -30,27 +30,57 @@
                 </g>
             </svg>
 
-            
-                <svg version="1.0" class="svg-circle" xmlns="http://www.w3.org/2000/svg" 
-                  viewBox="0 0 1000 1000"
-                  preserveAspectRatio="xMidYMid meet">
-                  
-                    <circle cx="496" cy="281" r="232" fill="#404040"></circle>
+            <svg version="1.0" class="svg-circle" xmlns="http://www.w3.org/2000/svg" 
+              viewBox="0 0 1000 1000"
+              preserveAspectRatio="xMidYMid meet">
+              
+                <circle cx="496" cy="281" r="232" fill="#404040"></circle>
 
-                  <g transform="translate(496 200)">
-                    <text id="svg-circle-title" x=0 y=0 text-anchor="middle">
-                        <tspan x="0" dy="1.2em">Find out how this blog</tspan>
-                        <tspan x="0" dy="1.2em">became alife</tspan>
-                    </text>
-                  </g>
+              <g transform="translate(496 200)">
+                <text id="svg-circle-title" x=0 y=0 text-anchor="middle">
+                    <tspan x="0" dy="1.2em">Find out how this blog</tspan>
+                    <tspan x="0" dy="1.2em">became alife</tspan>
+                </text>
+              </g>
 
-                  <g transform="translate(496 320)">
-                    <text id="svg-circle-description" x=0 y=0 text-anchor="middle">
-                        <tspan x="0" dy="1em">This is a small example description.</tspan>
-                        <tspan x="0" dy="1em">It is very important to me to get further in live bla bla bla...</tspan>
-                    </text>
-                  </g>
-                </svg>          
+              <g transform="translate(496 320)">
+                <text id="svg-circle-description" x=0 y=0 text-anchor="middle">
+                    <tspan x="0" dy="1em">This is a small example description.</tspan>
+                    <tspan x="0" dy="1em">It is very important to me to get further in live bla bla bla...</tspan>
+                </text>
+              </g>
+            </svg>  
+        </div>
+
+        <div class="timeline-container">
+
+            <table class="timeline-post">
+                <th class="timeline-post-publish-date">
+                    27. DEC
+                </th>
+                <th class="timeline-post-body">
+                    <div class="timeline-post-title">
+                        HEADLINE
+                    </div>
+                    <div class="timeline-post-description">
+                        DESCRIPTION
+                    </div> 
+                </th>                           
+            </table>
+
+            <table class="timeline-post">
+                <th class="timeline-post-publish-date">
+                    27. DEC
+                </th>
+                <th class="timeline-post-body">
+                    <div class="timeline-post-title">
+                        HEADLINE
+                    </div>
+                    <div class="timeline-post-description">
+                        DESCRIPTION
+                    </div> 
+                </th>                           
+            </table>   
 
         </div>
 

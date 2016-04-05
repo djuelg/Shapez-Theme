@@ -1,9 +1,11 @@
-.background-container {
-  position: absolute;
+body {
   min-width: 768px;
+  background-color: #DBEFED;
+}
+
+.start-screen {
   width: 100%;
   height: 100%;
-  background-color: #DBEFED;
 }
 
 .svg-circle {
@@ -11,6 +13,7 @@
   left: 0px;
   top: 0px;
 }
+
 
 #svg-circle-title {
   font-size: 28px;
@@ -21,4 +24,42 @@
   text-align: justify;
   font-size: 14px;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+.timeline-container {
+	position: relative;
+	padding-top: 15%;
+	padding-left: 80px;
+	padding-right: 80px;
+	height: 100%;
+}
+
+.timeline-post {
+	width: 100%;
+	height: 250px;
+	margin-bottom: 80px;
+	background-color: blue;
+}
+
+.timeline-post-publish-date {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background-color: red;
+	font-size: 48px;
+}
+
+.timeline-post-body {
+	padding-left: 80px;
+	vertical-align: top;
+	text-align: left;
+
+}
+
+.timeline-post-title {
+	font-size: 48px;
+}
+
+.timeline-post-description {
+	padding-top: 10px;
 }
