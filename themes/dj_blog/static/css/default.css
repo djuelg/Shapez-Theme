@@ -1,39 +1,23 @@
 body {
-  min-width: 768px;
+  min-height: 600px;
+  min-width: 600px;
   background-color: #DBEFED;
 }
 
 .start-screen {
   display: block;
   width: auto;
-  height: 768px;
+  min-height: 600px;
+  height: 95vh;
   text-align: center;
   margin: auto;
-}
-
-.svg-circle {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-
-
-#svg-circle-title {
-  font-size: 28px;
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-}
-
-#svg-circle-description {
-  text-align: justify;
-  font-size: 14px;
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 
 .timeline-container {
 	position: relative;
 	padding-top: 15%;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-left: 5%;
+	padding-right: 5%;
 	height: 100%;
 }
 
@@ -65,4 +49,12 @@ body {
 
 .timeline-post-description {
 	padding-top: 10px;
+}
+
+
+@media only screen and (orientation: portrait) {
+	.start-screen {
+		width: 150vw;
+		height: auto;
+	}
 }
