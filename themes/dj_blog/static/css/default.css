@@ -1,7 +1,11 @@
 body {
   min-height: 600px;
-  min-width: 600px;
+  min-width: 800px;
   background-color: #DBEFED;
+}
+
+h3 {
+ font-size: 1.5em;
 }
 
 .start-screen {
@@ -10,45 +14,42 @@ body {
   min-height: 600px;
   height: 95vh;
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .timeline-container {
 	position: relative;
-	padding-top: 15%;
-	padding-left: 5%;
-	padding-right: 5%;
-	height: 100%;
+	padding-top: 15vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
 }
 
 .timeline-post {
+	min-width: 800px;
 	width: 100%;
-	height: 250px;
-	margin-bottom: 80px;
-	background-color: blue;
+	height: 120px;
+	margin-bottom: 40px;
+    outline: 1px dotted #333;
 }
 
 .timeline-post-publish-date {
-	height: 250px;
-	width: 250px;
+	height: 120px;
+	width: 120px;
 	border-radius: 50%;
-	background-color: red;
-	font-size: 48px;
+	background-color: #333;
+	text-align: center;
 }
 
 .timeline-post-body {
-	padding-left: 80px;
+	padding-left: 60px;
 	vertical-align: top;
 	text-align: left;
-
-}
-
-.timeline-post-title {
-	font-size: 48px;
+	font-size: 0.7em;
 }
 
 .timeline-post-description {
-	padding-top: 10px;
+	color: #333;
 }
 
 
