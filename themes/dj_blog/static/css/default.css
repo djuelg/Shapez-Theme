@@ -1,11 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans);
+
 body {
   /*min-height: 600px;
   min-width: 800px;*/
   background-color: #DBEFED;
+  font-family: "Open Sans", Helvetica, sans-serif;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-family: Helvetica, sans-serif;
+  font-size: 2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
 }
 
 .start-screen {
@@ -19,37 +25,41 @@ h3 {
 }
 
 .timeline-container {
+	max-width: 900px;
 	position: relative;
 	padding-top: 15vh;
-	padding-left: 5vw;
-	padding-right: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .timeline-post {
-	min-width: 400px;
 	width: 100%;
 	height: 120px;
 	margin-bottom: 40px;
-    outline: 1px dotted #333;
 }
 
 .timeline-post-publish-date {
+	display: inline-table;
+	margin: auto;
 	height: 120px;
 	width: 120px;
 	border-radius: 50%;
 	background-color: #333;
 	text-align: center;
+	line-height: 1em;
 }
 
 .timeline-post-body {
-	padding-left: 60px;
+	padding-left: 30px;
 	vertical-align: top;
 	text-align: left;
-	font-size: 0.7em;
+	font-size: 1.2em;
 }
 
 .timeline-post-description {
-	color: #333;
+	text-align: justify;
 }
 
 
