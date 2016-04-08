@@ -11,7 +11,7 @@ h3 {
 .start-screen {
   display: block;
   width: 98vw;
-  min-height: 200px;
+  min-height: 400px;
   height: 96vh;
   text-align: center;
   margin: 0 auto;
@@ -55,7 +55,8 @@ h3 {
 
 @media only screen and (orientation: portrait) {
 	.start-screen {
-		width: 150vw;
-		height: auto;
+		min-height: 200px;
+		width: 100vw;
+		height: 66vw;
 	}
 }
