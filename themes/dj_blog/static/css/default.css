@@ -70,3 +70,10 @@ h3 {
 		height: 66vw;
 	}
 }
+
+@media (min-aspect-ratio: 16/9) {
+  .start-screen {
+		width: 93vw;
+		height: 98vh;
+	}
+}
