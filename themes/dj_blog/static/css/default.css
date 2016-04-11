@@ -31,8 +31,8 @@ body {
 
 .timeline-post {
 	width: 100%;
-	height: 120px;
-	margin-bottom: 250px;
+	height: auto;
+	margin-bottom: 90px;
 	box-sizing: border-box;
 }
 
@@ -69,6 +69,15 @@ body {
 
 .timeline-post-description {
 	text-align: justify;
+}
+
+.mustage {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	height: 200px;
+	margin-top: -50px;
+	padding-bottom: 50px;
 }
 
 .footer {
