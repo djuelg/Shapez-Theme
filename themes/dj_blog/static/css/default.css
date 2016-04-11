@@ -7,12 +7,7 @@ body {
   font-family: "Open Sans", Helvetica, sans-serif;
 }
 
-h3 {
-  font-family: Helvetica, sans-serif;
-  font-size: 2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.1em;
-}
+
 
 .start-screen {
   display: block;
@@ -41,6 +36,13 @@ h3 {
 	box-sizing: border-box;
 }
 
+.timeline-post h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.2em;
+}
+
 .timeline-post-publish-date {
 	margin: 0 auto;
 	height: 120px;
@@ -49,6 +51,14 @@ h3 {
 	background-color: #333;
 	text-align: center;
 	line-height: 1em;
+	color: #DBEFED;
+	float: left;
+	margin-top: -18px;
+	margin-right: 20px;
+}
+
+.timeline-post-publish-date h3 {
+  margin-bottom: 0.1em;
 }
 
 .timeline-post-body {
@@ -59,6 +69,27 @@ h3 {
 
 .timeline-post-description {
 	text-align: justify;
+}
+
+.footer {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	width: 100%;
+	height: 120px;
+	box-shadow: 0 1px 5px black inset;
+	background-color: #4cabab;
+	color: #DBEFED;
+	font-size: 24px;
+}
+
+.footer img  {
+	height: 80%;
+	width: auto;
+}
+
+.footer p {
+	margin: 0 0 0 12px;
 }
 
 
