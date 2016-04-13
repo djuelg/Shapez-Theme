@@ -63,11 +63,11 @@
   <text style="text-align:center" font-size="113.8" y="732" x="3494.4" font-family="sans-serif" fill="#000000" word-spacing="0" letter-spacing="0" text-anchor="middle">
     <tspan y="732" x="3494.4">Sample</tspan><tspan y="874.2" x="3494.4">Logo</tspan>
   </text>
-  <text style="text-align:center" font-size="132.8" y="840.8" x="2140.7" font-family="sans-serif" fill="#000000" word-spacing="0" letter-spacing="0" text-anchor="middle">
+  <text id="svg-title">
     <tspan y="840.8" x="2140.7">Headline,</tspan><tspan y="1006.8" x="2140.7">wich can be very long</tspan>
   </text>
-  <text style="text-align:center" font-size="46.6" y="1424.4" x="2114.7" font-family="sans-serif" fill="#000000" word-spacing="0" letter-spacing="0" text-anchor="middle">
-    <tspan y="1424.4" x="2114.7">Es ist zu beachten, dass diese Funktion zwar im Prinzip funktioniert, jedoch</tspan><tspan y="1482.7" x="2114.7">noch nicht derart ausgereift ist, dass dieses Tutorial bei jedem garantiert</tspan><tspan y="1540.9" x="2114.7">auf gleiche Weise funktioniert. Die besten Ergebnisse scheint man zu</tspan><tspan y="1599.2" x="2114.7">erzeihen wenn man Inkscape neugestartet wird.</tspan>
+  <text id="svg-comment">
+   <tspan y="1540.9" x="2114.7">Im am subtitle wich is not too long, but I'm</tspan><tspan y="1650" x="2114.7">also a two-liner...</tspan>
   </text>
   <g filter="url(#a)" transform="matrix(.054 -.134 .134 .054 1063.4 846.58)">
       <path fill="#4cabab" d="M677 294.3l-304.7-268C358 13.8 335 13.8 321 26.3l-304.4 268C2.4 306.7 6.2 317 25 317h94V591c0 15 12.4 27.4 27.4 27.4h115V438c0-14.8 12.3-27.2 27.4-27.2h116c15.2 0 27.4 12 27.4 27.3v180.6h115c15.2 0 27.4-12.3 27.4-27.4V316.8h94c18.6 0 22.4-10 8.4-22.5z"/>

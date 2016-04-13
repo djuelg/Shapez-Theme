@@ -1,19 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans|Amatic+SC|Handlee|Nixie+One|Fontdiner+Swanky|Life+Savers|Cutive+Mono);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Handlee|Fontdiner+Swanky|Life+Savers);
 body {
   /*min-height: 600px;
   min-width: 800px;*/
   background-color: #DBEFED;
   font-family: "Open Sans", Helvetica, sans-serif;
-  font-family: "Fjalla+One", Helvetica, sans-serif;
-  font-family: 'Amatic SC', cursive;
+  
+  /* Other Fonts
   font-family: 'Handlee', cursive;
-  font-family: 'Nixie One', cursive;
   font-family: 'Fontdiner Swanky', cursive;
-  font-family: 'Life Savers', cursive;
-  font-family: 'Cutive Mono', cursive;
+  font-family: 'Life Savers', cursive; */
 }
-
-
 
 .start-screen {
   display: block;
@@ -23,6 +19,31 @@ body {
   text-align: center;
   margin: 0 auto;
   overflow: hidden;
+}
+
+#svg-title {
+	text-align: center;
+	font-size: 140px;
+	font-family: 'Handlee', cursive;
+	font-weight: bold;
+	word-spacing: 0;
+	letter-spacing: 0;
+	fill: #000000; 
+	text-anchor: middle;
+	y: 860.8;
+	x: 2140.7;
+}
+
+#svg-comment {
+	text-align: center;
+	font-size: 100px;
+	font-family: 'Handlee', cursive;
+	word-spacing: 0;
+	letter-spacing: 0;
+	fill: #000000; 
+	text-anchor: middle;
+	y: 1424.4;
+	x: 2114.7;
 }
 
 .timeline-container {
@@ -64,6 +85,9 @@ body {
 }
 
 .timeline-post-publish-date h3 {
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 2.5em;
+  font-weight: lighter;
   margin-bottom: 0.1em;
 }
 
