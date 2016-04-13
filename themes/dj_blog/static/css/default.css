@@ -1,10 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans);
-
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans|Amatic+SC|Handlee|Nixie+One|Fontdiner+Swanky|Life+Savers|Cutive+Mono);
 body {
   /*min-height: 600px;
   min-width: 800px;*/
   background-color: #DBEFED;
   font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: "Fjalla+One", Helvetica, sans-serif;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Handlee', cursive;
+  font-family: 'Nixie One', cursive;
+  font-family: 'Fontdiner Swanky', cursive;
+  font-family: 'Life Savers', cursive;
+  font-family: 'Cutive Mono', cursive;
 }
 
 
