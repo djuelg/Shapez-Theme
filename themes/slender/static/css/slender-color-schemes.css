@@ -1,0 +1,224 @@
+/******************************************************************************
+ *
+ * slender-color-schemes.css
+ * Based on base16 color scheme by @chriskempson
+ * http://chriskempson.github.io/base16/#default
+ *
+ *****************************************************************************/
+
+
+/* WHITE -- base07 -- #F5F5F5 */
+
+.color-scheme-white header,
+.color-scheme-white footer {
+    background-color: #F5F5F5;
+    color: #000;
+}
+
+.color-scheme-white a {
+    color: #000;
+}
+
+.color-scheme-white .article-read-more a,
+.color-scheme-white .pagination li a {
+    color: #000;
+}
+
+.color-scheme-white .article-read-more a:hover,
+.color-scheme-white .pagination li a {
+    background-color: #F5F5F5;
+    color: #000;
+    padding: 2px 4px;
+}
+
+/* BLACK -- base00 -- #151515 */
+
+.color-scheme-black header,
+.color-scheme-black footer {
+    background-color: #151515;
+    color: #FFF;
+}
+
+.color-scheme-black a {
+    color: #FFF;
+}
+
+.color-scheme-black .article-read-more a,
+.color-scheme-black .pagination li a {
+    color: #151515;
+}
+
+.color-scheme-black .article-read-more a:hover,
+.color-scheme-black .pagination li a {
+    background-color: #151515;
+    color: #FFF;
+    padding: 2px 4px;
+}
+
+/* RED -- base08 -- #AC4142 */
+
+.color-scheme-red header,
+.color-scheme-red footer {
+    background-color: #AC4142;
+    color: #FFF;
+}
+
+.color-scheme-red a {
+    color: #FFF;
+}
+
+.color-scheme-red .article-read-more a,
+.color-scheme-red .pagination li a {
+    color: #AC4142;
+}
+
+.color-scheme-red .article-read-more a:hover,
+.color-scheme-red .pagination li a {
+    background-color: #AC4142;
+    color: #FFF;
+    padding: 2px 4px;
+}
+
+/* ORANGE -- base09 -- #D28445 */
+
+.color-scheme-orange header,
+.color-scheme-orange footer {
+    background-color: #D28445;
+    color: #FFF;
+}
+
+.color-scheme-orange a {
+    color: #FFF;
+}
+
+.color-scheme-orange .article-read-more a,
+.color-scheme-orange .pagination li a {
+    color: #D28445;
+}
+
+.color-scheme-orange .article-read-more a:hover,
+.color-scheme-orange .pagination li a {
+    background-color: #D28445;
+    color: #FFF;
+    padding: 2px 4px;
+}
+
+/* YELLOW -- base0A -- #F4BF75 */
+
+.color-scheme-yellow header,
+.color-scheme-yellow footer {
+    background-color: #F4BF75;
+    color: #FFF;
+}
+
+.color-scheme-yellow a {
+    color: #FFF;
+}
+
+.color-scheme-yellow .article-read-more a,
+.color-scheme-yellow .pagination li a {
+    color: #F4BF75;
+}
+
+.color-scheme-yellow .article-read-more a:hover,
+.color-scheme-yellow .pagination li a {
+    background-color: #F4BF75;
+    color: #FFF;
+    padding: 2px 4px;
+}
+
+/* GREEN -- base0B -- #90A959 */
+
+.color-scheme-green header,
+.color-scheme-green footer {
+    background-color: #90A959;
+    color: #FFF;
+}
+
+.color-scheme-green a {
+    color: #FFF;
+}
+
+.color-scheme-green .article-read-more a,
+.color-scheme-green .pagination li a {
+    color: #90A959;
+}
+
+.color-scheme-green .article-read-more a:hover,
+.color-scheme-green .pagination li a {
+    background-color: #90A959;
+    color: #FFF;
+    padding: 2px 4px;
+}
+
+/* TEAL -- base0C -- #75B5AA */
+
+.color-scheme-teal header,
+.color-scheme-teal footer {
+    background-color: #75B5AA;
+    color: #FFF;
+}
+
+.color-scheme-teal a {
+    color: #FFF;
+}
+
+.color-scheme-teal .article-read-more a,
+.color-scheme-teal .pagination li a {
+    color: #75B5AA;
+}
+
+.color-scheme-teal .article-read-more a:hover,
+.color-scheme-teal .pagination li a {
+    background-color: #75B5AA;
+    color: #FFF;
+    padding: 2px 4px;
+}
+
+/* BLUE -- base0D -- #6A9FB5 */
+
+.color-scheme-blue header,
+.color-scheme-blue footer {
+    background-color: #6A9FB5;
+    color: #FFF;
+}
+
+.color-scheme-blue a {
+    color: #FFF;
+}
+
+.color-scheme-blue .article-read-more a,
+.color-scheme-blue .pagination li a {
+    color: #6A9FB5;
+}
+
+.color-scheme-blue .article-read-more a:hover,
+.color-scheme-blue .pagination li a {
+    background-color: #6A9FB5;
+    color: #FFF;
+    padding: 2px 4px;
+}
+
+/* PURPLE -- base0E -- #AA759F */
+
+.color-scheme-purple header,
+.color-scheme-purple footer {
+    background-color: #AA759F;
+    color: #FFF;
+}
+
+.color-scheme-purple a {
+    color: #FFF;
+}
+
+.color-scheme-purple .article-read-more a,
+.color-scheme-purple .pagination li a {
+    color: #AA759F;
+}
+
+.color-scheme-purple .article-read-more a:hover,
+.color-scheme-purple .pagination li a {
+    background-color: #AA759F;
+    color: #FFF;
+    padding: 2px 4px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="{{ .Title }}{{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }} {{ end }}">
+        <meta property="og:site_name" content="{{ .Site.Title }}"/>
+        <meta property="og:description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+        <meta property="og:url" content="{{ .Permalink }}" />
+        <meta property="og:locale" content="{{ .Site.LanguageCode }}">
+        <meta name="author" content="{{ .Site.Author.name }}">
+        <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+        <meta name="keywords" content="{{ with .Keywords }}{{ delimit . ", " }}{{ else }}{{ .Site.Params.keywords }}{{ end }}">
+        {{ .Hugo.Generator }}
+        <link rel="icon" href="{{ "/assets/favicon.ico" | absURL }}" type="image/x-icon"> 
+        <link rel="stylesheet" href="{{ "/css/slender-base.css" | absURL }}">
+        <link rel="stylesheet" href="{{ "/css/slender-color-schemes.css" | absURL }}">
+        <link rel="stylesheet" href="{{ "/css/font-awesome-4.5.0.min.css" | absURL }}">
+        <link rel="stylesheet" href="{{ "/css/highlight-9.0.0-default.min.css" | absURL }}">
+        <title>
+            {{ if eq .URL "/" }}
+                {{ .Site.Title }}
+            {{ else }}
+                {{ .Title }} &middot; {{ .Site.Title }}
+            {{ end }}
+        </title>
+    </head>
+    <body class="color-scheme-{{ .Site.Params.colorscheme }}">
+        <div class="container">
+            <header>
+                <nav>
+                    <ul>{{ range .Site.Menus.main }}<li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>{{ end }}</ul>
+                </nav>
+                {{ if eq .Section "page" }}
+                    <h1 class="page-title">{{ .Title }}</h1>
+                {{ else if eq .Section "post" }}
+                    <h1 class="post-title">{{ .Title }}</h1>
+                    <aside>
+                        <p>by <strong>{{ .Site.Author.name }}</strong> on <strong>{{ .Date.Format "Mon, Jan 02, 2006" }}</strong></p>
+                    </aside>
+                {{ else }}
+                    <h1 class="brand">{{ .Site.Title }}</h1>
+                    <aside>
+                        <p>{{ .Site.Params.tagline | safeHTML }}</p>
+                        <p>
+                            {{ with .Site.Params.github }}<a href="{{ . }}"><i class="fa fa-github"></i></a>{{ end }}
+                            {{ with .Site.Params.email }}<a href="{{ . }}"><i class="fa fa-envelope"></i></a>{{ end }}
+                            {{ with .Site.Params.twitter }}<a href="{{ . }}"><i class="fa fa-twitter"></i></a>{{ end }}
+                            {{ with .Site.Params.bitbucket }}<a href="{{ . }}"><i class="fa fa-bitbucket"></i></a>{{ end }}
+                            {{ with .Site.Params.stackoverflow }}<a href="{{ . }}"><i class="fa fa-stack-overflow"></i></a>{{ end }}
+                            {{ with .Site.Params.linkedin }}<a href="{{ . }}"><i class="fa fa-linkedin"></i></a>{{ end }}
+                            {{ with .Site.Params.facebook }}<a href="{{ . }}"><i class="fa fa-facebook"></i></a>{{ end }}
+                        </p>
+                    </aside>
+                {{ end }}
+            </header>
