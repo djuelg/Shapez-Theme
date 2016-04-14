@@ -2,7 +2,7 @@
 body {
   /*min-height: 600px;
   min-width: 800px;*/
-  background-color: #DBEFED;
+  background-color: #EFFFFF;
   font-family: "Open Sans", Helvetica, sans-serif;
   
   /* Other Fonts
@@ -12,6 +12,41 @@ body {
 }
 
 /* General classes */
+
+a {
+	color: black;
+}
+
+.nav {
+	position: fixed;
+	display: flex;
+    align-items: center;
+	height: 35px;
+	width: 100vw;
+	top: 0px;
+	background-color: #EFFFFF;
+	opacity: 0.9;
+	box-shadow: 3px 0px 5px black;
+	z-index: 99;
+}
+
+.nav * {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.nav h3 {
+	font-weight: lighter;
+}
+
+.nav img {
+	height: 80%;
+}
+
+.nav:hover {
+	opacity: 1;
+}
+
 .mustage {
 	display: flex;
     align-items: center;
@@ -167,5 +202,6 @@ body {
     align-items: center;
     justify-content: center;
 	background-color: #4cabab;
-	box-shadow: 0 1px 3px black inset;
+	color: white;
+	margin-top: 35px;
 }
