@@ -173,7 +173,7 @@
 	text-align: right;
 }
 
-@media only screen and (min-width: 1080px) and (min-height: 800px) {
+@media only screen and (min-width: 1080px) and (min-height: 720px) {
 	.top-nav {
 		display: none;
 		visibility: hidden;
