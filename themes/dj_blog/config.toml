@@ -21,8 +21,6 @@ PaginatePath = "/"
     post = "/article/:title/"
 
 [params]
-	# Footer; Markdown accepted here.
-    footer = "Copyright 2016  ·  Sample Author"
     # Description and keywords for <meta> tags.
     # Remember to set this for your main page.
     # This will be overridden by whatever is set by the page or post,
@@ -30,6 +28,9 @@ PaginatePath = "/"
     # of the markdown file.
     description = "Example site for Slender, a minimalist theme for Hugo."
     keywords = "hugo, blog, Scorpiorse, SVG, designer"
+
+    # Footer; Markdown accepted here.
+    footer = "Copyright 2016  ·  Sample Author"
 
     # Google Analytics
     # Remove, comment, or leave it blank if you don't have one.
