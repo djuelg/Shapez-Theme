@@ -1,15 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Fontdiner+Swanky);
-body {
-  /*min-height: 600px;
-  min-width: 800px;*/
-  background-color: #EFFFFF;
-  font-family: "Open Sans", Helvetica, sans-serif;
-  
-  /* Other Fonts
-  font-family: 'Fontdiner Swanky', cursive;
- */
-}
-
 
 /* Homepage classes */
 .start-screen {
@@ -202,6 +191,11 @@ body {
 }
 
 /* General classes */
+
+body {
+  background-color: #EFFFFF;
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
 
 a {
 	color: black;
