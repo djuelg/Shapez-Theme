@@ -4,16 +4,23 @@
         {{ partial "head.html" . }}
     </head>
     <body>
-    	<div class="nav">
+    	<!--
+        <div class="nav">
     		<img src="/images/logo.png">
     		<h3> Blog Title </h3>
 			<a href="url">Home</a>
 			<a href="url">Milestones</a>
 			<a href="url">About</a>
     	</div>
-    	<div class="article-header">  		
-    			<h1>{{ .Title }}</h1>
-    		</div>
+        -->
+    	<div style="height: 140px; margin-top: 35px; background-color: #4cabab;">
+            <div class="article-header">
+                <div class="publish-date" style="margin-top: 0px;">
+                    <h3>27</h3></br>DECEMBER
+                </div>
+                <h1>{{ .Title }}</h1>
+            </div>		
+    	</div>
     	<div class="article-container">
     		<div class="aricle-body">
     			{{ .Content }}
