@@ -12,40 +12,22 @@ PaginatePath = "/"
 [author]
     name = "Sample Author"
 
-[permalinks]
-
-    # Permalink format for pages.
-    page = "/:title/"
-
-    # Permalink format for blog posts.
-    post = "/article/:title/"
-
 [params]
-	# Footer; Markdown accepted here.
+    header_l1 = "Headline,"
+    header_l2 = "wich can be very long"
+
+    description_l1 = "Im am subtitle wich is not too long, but I'm"
+    description_l2 = "also a two-liner..."
+
+    # Enter links for the buttons (button one has the house sign)
+    button_1 = ""
+    button_2 = ""
+    button_3 = ""
+
+    # Footer; Markdown accepted here.
     footer = "Copyright 2016  ·  Sample Author"
-    # Description and keywords for <meta> tags.
-    # Remember to set this for your main page.
-    # This will be overridden by whatever is set by the page or post,
-    # defined by `description` and `keywords` variables in the front matter
-    # of the markdown file.
-    description = "Example site for Slender, a minimalist theme for Hugo."
+
     keywords = "hugo, blog, Scorpiorse, SVG, designer"
 
-    # Google Analytics
-    # Remove, comment, or leave it blank if you don't have one.
+    # Google Analytics, can be left empty
     ganalytics = ""
-
-[menu]
-    # Menu for the nav bar.
-    # There must always be one item present (e.g. home).
-    [[menu.main]]
-    identifier = "home"
-    name       = "home"
-    url        = ""
-    weight     = 0
-
-    [[menu.main]]
-    identifier = "about"
-    name       = "about"
-    url        = "about/"
-    weight     = 1

@@ -1,8 +1,6 @@
 #hugo server --theme=dj_blog --buildDrafts  --bind="0.0.0.0"
 #https://github.com/spf13/hugo/tree/master/docs/content/content
 
-
-baseurl = "http://0.0.0.0/"
 name = "dj_blog"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
