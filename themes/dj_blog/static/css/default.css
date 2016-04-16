@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Handlee|Fontdiner+Swanky|Life+Savers);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Fontdiner+Swanky);
 body {
   /*min-height: 600px;
   min-width: 800px;*/
@@ -6,9 +6,8 @@ body {
   font-family: "Open Sans", Helvetica, sans-serif;
   
   /* Other Fonts
-  font-family: 'Handlee', cursive;
   font-family: 'Fontdiner Swanky', cursive;
-  font-family: 'Life Savers', cursive; */
+ */
 }
 
 
@@ -26,7 +25,6 @@ body {
 #svg-title {
 	text-align: center;
 	font-size: 140px;
-	font-family: 'Handlee', cursive;
 	font-weight: bold;
 	word-spacing: 0;
 	letter-spacing: 0;
@@ -38,8 +36,7 @@ body {
 
 #svg-comment {
 	text-align: center;
-	font-size: 100px;
-	font-family: 'Handlee', cursive;
+	font-size: 80px;
 	word-spacing: 0;
 	letter-spacing: 0;
 	fill: #000000; 
@@ -62,7 +59,7 @@ body {
 	width: 100%;
 	height: auto;
 	margin-bottom: 90px;
-	box-sizing: border-box;
+	
 }
 
 .timeline-post h3 {
@@ -72,14 +69,12 @@ body {
   margin-bottom: 0.2em;
 }
 
-.timeline-post-body {
+.timeline-post p {
 	vertical-align: top;
 	text-align: left;
-	font-size: 1.2em;
-}
-
-.timeline-post-description {
 	text-align: justify;
+	font-size: 1.2em;
+	margin-top: 10px;
 }
 
 @media only screen and (orientation: portrait) {
@@ -98,24 +93,38 @@ body {
 }
 
 /* Single page classes */
-.article-container {
+
+.article-header-container {
+	height: 140px; 
+	margin-top: 35px; 
+	background-color: #4cabab;
+}
+
+.article-header {
+	max-width: 900px;
+	display: flex;  
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+	color: white;
+}
+
+.article-header h1 {
+  font-weight: lighter;
+  font-size: 3.25em;
+}
+
+.article-body {
 	max-width: 900px;
 	position: relative;
     margin-left: auto;
     margin-right: auto;
     padding-left: 25px;
     padding-right: 25px;
+    font-size: 1.2em;
+    text-align: justify;
 }
 
-.article-header {
-	max-width: 900px;
-	display: flex;  
-    padding-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-	color: white;
-}
 
 /* General classes */
 

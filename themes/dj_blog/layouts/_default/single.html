@@ -13,7 +13,7 @@
 			<a href="url">About</a>
     	</div>
         -->
-    	<div style="height: 140px; margin-top: 35px; background-color: #4cabab;">
+    	<div class="article-header-container">
             <div class="article-header">
                 <div class="publish-date" style="margin-top: 0px;">
                     <h3>27</h3></br>DECEMBER
@@ -21,11 +21,8 @@
                 <h1>{{ .Title }}</h1>
             </div>		
     	</div>
-    	<div class="article-container">
-    		<div class="aricle-body">
+    	<div class="article-body">
     			{{ .Content }}
-    		</div>
-
     	</div>       
 
         {{ partial "footer.html" . }}
