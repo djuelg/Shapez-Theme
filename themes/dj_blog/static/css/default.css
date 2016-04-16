@@ -172,6 +172,18 @@ a {
 	height: 80%;
 }
 
+.side-nav {
+	position: fixed;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	right: 0px;
+	top: 25%;
+	width: 120px;
+	height: 500px;
+	text-align: right;
+}
+
 .publish-date {
 	height: 120px;
 	width: 120px;
