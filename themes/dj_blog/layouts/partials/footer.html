@@ -1,6 +1,8 @@
 <footer class="footer-container">
 	<div class="footer">
-		<img src="/images/logo.png">
-		<p> {{ .Site.Params.footer | markdownify }} </p>
+    <a href="/"><img src="/images/logo.png"></a>    	
+		<p> {{ .Site.Params.footer }} </p>
+    <p>·</p>
+    <a href="/about/"><p> {{ .Site.Author.name }} </p></a>
 	</div>
 </footer>

@@ -26,6 +26,6 @@ googleAnalytics = "UA-123-45"
     button_3 = ""
 
     # Footer; Markdown accepted here.
-    footer = "Copyright 2016  ·  Sample Author"
+    footer = "Copyright 2016"
 
     keywords = "hugo, blog, Shapez, SVG, designer"
