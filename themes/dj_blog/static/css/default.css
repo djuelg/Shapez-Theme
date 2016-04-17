@@ -137,11 +137,11 @@
     align-items: center;
     justify-content: center;
 	height: 35px;
-	width: 100vw;
+	width: 100%;
 	top: 0px;
 	background-color: #333;
-	box-shadow: 3px 0px 5px black;
 	z-index: 99;
+	opacity: 0.95;
 }
 
 .top-nav * {
