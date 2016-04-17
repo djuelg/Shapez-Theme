@@ -4,36 +4,36 @@
         {{ partial "head.html" . }}
     </head>
     <body>
+        <div class="wrapper">
+            <div class="top-nav">
+        		<img src="/images/logo.png">
+        		<h3> Blog Title </h3>
+                <text>·</text>
+    			<a href="url">Home</a>
+    			<a href="url">Milestones</a>
+    			<a href="url">About</a>
+        	</div>
 
-        <div class="top-nav">
-    		<img src="/images/logo.png">
-    		<h3> Blog Title </h3>
-            <text>·</text>
-			<a href="url">Home</a>
-			<a href="url">Milestones</a>
-			<a href="url">About</a>
-    	</div>
+            <div class="side-nav">
+                {{ partial "sidebar.svg" . }}
+            </div>
 
-        <div class="side-nav">
-            {{ partial "sidebar.svg" . }}
+        	<div class="article-header-container">
+                <div class="article-header">
+                    <div class="publish-date" style="margin-top: 0px;">
+                        <h3>27</h3></br>DECEMBER
+                    </div>
+                    <h1>{{ .Title }}</h1>
+                </div>		
+        	</div>
+            <div class="article-meta-inf">
+                Readingtime - Autor
+            </div>
+        	<div class="article-body">
+        			{{ .Content }}
+        	</div>       
+
+            {{ partial "footer.html" . }}
         </div>
-
-    	<div class="article-header-container">
-            <div class="article-header">
-                <div class="publish-date" style="margin-top: 0px;">
-                    <h3>27</h3></br>DECEMBER
-                </div>
-                <h1>{{ .Title }}</h1>
-            </div>		
-    	</div>
-        <div class="article-meta-inf">
-            Readingtime - Autor
-        </div>
-    	<div class="article-body">
-    			{{ .Content }}
-    	</div>       
-
-        {{ partial "footer.html" . }}
-
     </body>
 </html>
