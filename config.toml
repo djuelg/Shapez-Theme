@@ -8,6 +8,7 @@ MetaDataFormat = "toml"
 theme = "dj_blog"
 paginate = 10
 PaginatePath = "/"
+googleAnalytics = "UA-123-45"
 
 [author]
     name = "Sample Author"
@@ -28,6 +29,3 @@ PaginatePath = "/"
     footer = "Copyright 2016  ·  Sample Author"
 
     keywords = "hugo, blog, Shapez, SVG, designer"
-
-    # Google Analytics, can be left empty
-    ganalytics = ""
