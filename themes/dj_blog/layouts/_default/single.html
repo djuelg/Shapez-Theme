@@ -9,9 +9,9 @@
         		<img src="/images/logo.png">
         		<h3> Blog Title </h3>
                 <text>·</text>
-    			<a href="url">Home</a>
-    			<a href="url">Milestones</a>
-    			<a href="url">About</a>
+    			<a href="/">Home</a>
+    			<a href="/playground/">Playground</a>
+    			<a href="/about/">About</a>
         	</div>
 
             <div class="side-nav">
@@ -27,7 +27,7 @@
                 </div>		
         	</div>
             <div class="article-meta-inf">
-                Readingtime - Autor
+                {{ .ReadingTime }} minutes reading time · written by {{ .Site.Author.name }}
             </div>
         	<div class="article-body">
         			{{ .Content }}
