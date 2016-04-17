@@ -42,7 +42,7 @@
     margin-right: auto;
     padding-left: 25px;
     padding-right: 25px;
-    padding-bottom: 140px;
+    padding-bottom: 200px;
 }
 
 .timeline-post {
@@ -117,7 +117,7 @@
     padding-right: 25px;
     font-size: 1.2em;
     text-align: justify;
-    padding-bottom: 140px;
+    padding-bottom: 200px;
 }
 
 .article-meta-inf {
@@ -251,8 +251,7 @@ a {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0px;
+    position: relative;
 	display: flex;
     align-items: center;
     padding-left: 25px;
