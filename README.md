@@ -1,6 +1,6 @@
-# SCORPIORSE(?) theme for Hugo
+# Shapez Theme for Hugo
 Designed with passion and love.
-Scorpiorse is a modern hugo theme using a lot of SVG graphics.
+Shapez is a modern hugo theme using a lot of SVG graphics.
 SVG is super cool, but be aware - it can also be very nasty and exhausting.
 
 Demo: [](http://djuelg-student.github.io/)

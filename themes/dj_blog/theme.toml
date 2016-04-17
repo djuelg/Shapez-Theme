@@ -5,7 +5,7 @@ name = "dj_blog"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
 homepage = "http://siteforthistheme.com/"
-tags = ["hugo", "blog", "Scorpiorse", "SVG", "designer"]
+tags = ["hugo", "blog", "Shapez", "SVG", "designer"]
 min_version = 0.14
 
 [author]

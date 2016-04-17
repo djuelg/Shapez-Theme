@@ -2,7 +2,7 @@
 # https://github.com/djuelg-student
 
 baseurl = "http://0.0.0.0/"
-title = "Scorpiorse"
+title = "Shapez Theme"
 languageCode = "en-US"
 MetaDataFormat = "toml"
 theme = "dj_blog"
@@ -27,7 +27,7 @@ PaginatePath = "/"
     # defined by `description` and `keywords` variables in the front matter
     # of the markdown file.
     description = "Example site for Slender, a minimalist theme for Hugo."
-    keywords = "hugo, blog, Scorpiorse, SVG, designer"
+    keywords = "hugo, blog, Shapez, SVG, designer"
 
     # Footer; Markdown accepted here.
     footer = "Copyright 2016  ·  Sample Author"
