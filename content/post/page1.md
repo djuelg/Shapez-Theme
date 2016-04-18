@@ -1,15 +1,5 @@
 ---
-aliases:
-- /doc/example/
-lastmod: 2015-12-23
-date: 2013-07-01
-linktitle: Example
-menu:
-  main:
-    parent: content
-prev: /content/summaries
-next: /themes/overview
-notoc: true
+date: 2013-01-01
 title: Example Content File
 weight: 70
 ---

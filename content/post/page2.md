@@ -1,14 +1,8 @@
 ---
-lastmod: 2015-12-23
-date: 2014-05-14T02:13:50Z
-menu:
-  main:
-    parent: content
-next: /content/ordering
-prev: /content/types
+
+date: 2014-05-14
 title: Archetypes
 weight: 50
-toc: true
 ---
 
 Hugo v0.11 introduced the concept of a content builder. Using the
