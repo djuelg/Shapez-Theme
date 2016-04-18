@@ -14,7 +14,7 @@
             {{ range $paginator.Pages }}
                 <div class="timeline-post">
                     <div class="publish-date">
-                        </br></br><h3>{{ .Date.Format "02" }}</h3></br>{{ .Date.Format "JANUARY" }}
+                        </br></br><h3>{{ .Date.Format "02" }}</h3></br>{{ .Date.Format "January" | upper }}
                     </div>
 
                     <div class="timeline-post-body">
