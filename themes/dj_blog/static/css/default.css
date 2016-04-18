@@ -49,7 +49,14 @@
 	width: 100%;
 	height: auto;
 	margin-bottom: 90px;
-	
+}
+
+.timeline-post-read-more {
+	line-height: 0.5em;
+}
+
+.timeline-post-read-more a {
+	text-decoration: underline !important;
 }
 
 .timeline-post h3 {
@@ -57,6 +64,10 @@
   font-size: 2em;
   margin-top: 0.1em;
   margin-bottom: 0.2em;
+}
+
+.timeline-post a {
+    text-decoration: none;
 }
 
 .timeline-post p {
