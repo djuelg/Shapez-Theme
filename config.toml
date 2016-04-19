@@ -29,3 +29,5 @@ googleAnalytics = "UA-123-45"
     footer = "Copyright 2016"
 
     keywords = "hugo, blog, Shapez, SVG, designer"
+
+    logo = "/images/logo.png"
