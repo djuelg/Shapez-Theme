@@ -24,15 +24,14 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 - responsive webdesign
 
 # TODO:
-- Link Hover
 - Mustage Nav
-- Linksbündig / Blocksatz Buttons
+- Linksbündig / Blocksatz Buttons [done]
   - mit Cookie der es sich merkt
-- Sidebar Buttons verfügbar machen
-- Sidebar Logo:hover Dreh-Animation
 - Topbar Vor- / Zurück Buttons
 - Titlescreen Buttons verfügbar machen
 - Titlescreen automatischer Bilderwechsel
 - Titlescreen Arrow-Down anstatt Arrow-Left/Right
 - Titlescreen Logo austauschbar machen
 - Bucketlist Template erstellen
+- Listen Bild ändern
+- 404 Page
