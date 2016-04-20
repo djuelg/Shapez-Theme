@@ -149,14 +149,12 @@
 }
 
 #alignJustify {
-	position: absolute;
-	right: 70px;
-	height: 27px;
+	margin-left: 12px;
 }
-#alignLeft {
-	position: absolute;
-	right: 30px;
-	height: 27px;
+#alignJustify, #alignLeft {
+	margin-bottom: -6px;
+	margin-right: 3px;
+	height: 25px;
 }
 
 .article-meta-inf {
