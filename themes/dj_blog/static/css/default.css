@@ -198,12 +198,21 @@
 	position: fixed;
     align-items: center;
     justify-content: center;
-	right: 0px;
+	right: -7px;
 	top: 20%;
 	width: 120px;
 	height: 550px;
 	text-align: right;
 }
+
+.side-nav a {
+	fill: #4cabab;
+}
+
+.side-nav a:hover {
+	fill: #FF7400;
+}
+
 
 @media only screen and (min-width: 1080px) and (min-height: 720px) {
 	.top-nav {
@@ -219,7 +228,6 @@
 		display: flex;
 		visibility: visible;
 	}
-
 }
 
 /* General classes */
@@ -235,7 +243,7 @@ a {
 }
 
 a:hover {
-	color: #FF7400;
+	color: #FF7400 !important;
 }
 
 .wrapper {
