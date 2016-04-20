@@ -221,6 +221,10 @@ a {
 	color: black;
 }
 
+a:hover {
+	color: #ff7400;
+}
+
 .wrapper {
     position: relative;
     min-height: 100%;
