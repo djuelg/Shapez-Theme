@@ -9,7 +9,7 @@
                 {{ partial "start-screen.svg" . }}
             </div>
 
-            <div class="timeline-container">
+            <div id="scroll-down" class="timeline-container">
             {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
             {{ range $paginator.Pages }}
                 <div class="timeline-post">

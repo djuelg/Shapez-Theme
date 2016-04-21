@@ -24,6 +24,14 @@
   overflow: hidden;
 }
 
+.start-screen a {
+	fill: #008080;
+}
+
+.start-screen a:hover {
+	fill: #FF7400;
+}
+
 #svg-title {
 	text-align: center;
 	font-size: 140px;
@@ -50,7 +58,8 @@
 .timeline-container {
 	max-width: 900px;
 	position: relative;
-	padding-top: 15vh;
+	padding-top: 50px;
+	margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 25px;
