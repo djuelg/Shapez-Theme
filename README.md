@@ -34,4 +34,5 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 - Titlescreen Logo austauschbar machen
 - Bucketlist Template erstellen
 - Listen Bild ändern
-- 404 Page
+- 404 Page (viele kleine 404 zeichen über svg)
+- playground als eingene section, alle artikel untereinander (content liste)
