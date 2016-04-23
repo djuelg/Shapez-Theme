@@ -1,6 +1,8 @@
 # config.toml
 # https://github.com/djuelg-student
 
+#hugo server --theme=dj_blog --buildDrafts  --bind="0.0.0.0"
+
 baseurl = "http://0.0.0.0/"
 title = "Shapez Theme"
 languageCode = "en-US"

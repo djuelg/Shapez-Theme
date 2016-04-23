@@ -24,14 +24,14 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 - responsive webdesign
 
 # TODO:
+- "UP" Button im Footer
+- mehr Farbe in die Timeline
 - Mustage Nav
 - Linksbündig / Blocksatz Buttons [done]
   - mit Cookie der es sich merkt
-- Topbar Vor- / Zurück Buttons
-- Titlescreen Buttons verfügbar machen
+- Topbar Vor- / Zurück Buttons [done]
+  - mit Bildern
 - Titlescreen automatischer Bilderwechsel
-- Titlescreen Arrow-Down anstatt Arrow-Left/Right
-- Titlescreen Logo austauschbar machen
 - Bucketlist Template erstellen
 - Listen Bild ändern
 - 404 Page (viele kleine 404 zeichen über svg)
