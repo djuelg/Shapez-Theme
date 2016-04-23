@@ -3,13 +3,14 @@
 /**
  * Used Colors
  *
- *	main-color:    #4CABAB
- *	main-dark:	   #008080
- *	main-bright:   #EFFFFF
- *	complementary: #FF7400
- *  dark-gray:     #333
- * 	gray:          gray
- *  black:         black
+ *	main-color:    		  #4CABAB
+ *	main-dark:	   		  #008080
+ *	main-bright:   		  #EFFFFF
+ *	complementary: 		  #FF7400
+ *  complementary-bright: #FFB03C
+ *  dark-gray:    		  #333
+ * 	gray:        		  gray
+ *  black:      	      black
  *	
  */
 
@@ -30,6 +31,14 @@
 
 .start-screen a:hover {
 	fill: #FF7400;
+}
+
+.start-screen a g {
+	fill: #4CABAB;
+}
+
+.start-screen a:hover g {
+	fill: #FFB03C;
 }
 
 #svg-title {
