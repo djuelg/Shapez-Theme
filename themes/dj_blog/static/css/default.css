@@ -277,6 +277,23 @@ a:hover {
 	color: #FF7400 !important;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding-left: 16px;
+}
+
+li:before {
+	content: "•";
+	color: #008080;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
 .wrapper {
     position: relative;
     min-height: 100%;
