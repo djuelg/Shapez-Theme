@@ -41,6 +41,14 @@
 	fill: #FFB03C;
 }
 
+#start-screen-orange  {
+	fill: #FF7400 !important;
+}
+
+#start-screen-orange:hover {
+	fill: #FFB03C !important;
+}
+
 #svg-title {
 	text-align: center;
 	font-size: 140px;
