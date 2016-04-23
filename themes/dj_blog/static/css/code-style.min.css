@@ -10,8 +10,12 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   padding: 0.5em;
   margin: 1em;
   color: #333;
-  background: #EFFFFF;
-  box-shadow: 0 1px 3px black inset;
+  background: #F7FAFB;
+  box-sizing: border-box;
+  border: #E3EDF3 1px solid;
+  border-radius: 3px;
+
+
 }
 
 .hljs {
@@ -20,8 +24,10 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   padding: 0.5em;
   margin: 1em;
   color: #333;
-  background: #EFFFFF;
-  box-shadow: 0 1px 3px black inset;
+  background: #F7FAFB;
+  box-sizing: border-box;
+  border: #E3EDF3 1px solid;
+  border-radius: 3px;
 }
 
 .hljs-comment,
