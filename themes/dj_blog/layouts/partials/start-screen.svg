@@ -61,10 +61,13 @@
     <path d="M2068.803 2115.878c29.534 24.524 54.15 44.736 54.646 44.95.497.11 7.86-5.593 16.5-12.728l54.508-45.057 38.878-32.006-17.6-14.422-17.602-14.423-23.757 19.467c-13.085 10.7-29.73 24.462-37.098 30.476l-13.342 11.008-36.918-30.628-36.795-30.524-17.524 13.957c-9.65 7.743-17.53 14.267-17.535 14.578-.006.31 24.106 20.723 53.638 45.35z" id="path3599"/>
   </a>
   <text id="svg-title">
-    <tspan y="840.8" x="2140.7">Headline,</tspan><tspan y="1006.8" x="2140.7">wich can be very long</tspan>
+    <tspan y="950" x="2140.7">{{ .Site.Params.title_l1 }}</tspan>
+    <tspan y="1100" x="2140.7">{{ .Site.Params.title_l2 }}</tspan>
   </text>
   <text id="svg-comment">
-   <tspan y="1540.9" x="2114.7">Im am subtitle wich is not too long, but I'm</tspan><tspan y="1650" x="2114.7">also a two-liner...</tspan>
+   <tspan y="1400" x="2114.7">{{ .Site.Params.subtitle_l1 }}</tspan>
+   <tspan y="1510" x="2114.7">{{ .Site.Params.subtitle_l2 }}</tspan>
+   <tspan y="1620" x="2114.7">{{ .Site.Params.subtitle_l3 }}</tspan>
   </text>
 
   <image y="-602.681" x="3238.513" id="image3651" xlink:href="{{ .Site.Params.logo }}" preserveAspectRatio="none" height="470.669" width="470.669" transform="rotate(19)" image-rendering="optimizeQuality"/>

@@ -14,11 +14,11 @@ googleAnalytics = "UA-123-45"
     name = "Sample Author"
 
 [params]
-    header_l1 = "Headline,"
-    header_l2 = "wich can be very long"
-
-    description_l1 = "Im am subtitle wich is not too long, but I'm"
-    description_l2 = "also a two-liner..."
+    title_l1 = "Headline,"
+    title_l2 = "wich can be very l0ng"
+    subtitle_l1 = "Im am subtitle wich is not too long,"
+    subtitle_l2 = "but I'm also a two-liner..."
+    subtitle_l3 = "Now with a third line!"
 
     # Enter links for the buttons (button one has the house sign)
     button_1 = "/#scroll-down"
