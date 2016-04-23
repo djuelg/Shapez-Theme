@@ -21,9 +21,9 @@ googleAnalytics = "UA-123-45"
     description_l2 = "also a two-liner..."
 
     # Enter links for the buttons (button one has the house sign)
-    button_1 = ""
-    button_2 = ""
-    button_3 = ""
+    button_1 = "/#scroll-down"
+    button_2 = "/playground/"
+    button_3 = "/about/"
 
     # Footer; Markdown accepted here.
     footer = "Copyright 2016"
