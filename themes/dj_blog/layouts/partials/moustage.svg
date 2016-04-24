@@ -8,8 +8,9 @@
      height="23.78112"
      width="7.7037411"/>
   <g>
-    <a xlink:title="Previous Page" xlink:href="/page1?/">
+    <a xlink:title="Previous Page" xlink:href="{{ if .Paginator.HasPrev }}{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}#scroll-down{{ else }}#scroll-down{{ end }}">
       <path transform="matrix(0.1,0,0,-0.1,0.11842105,270.51842)"
+        {{ if not .Paginator.HasPrev }} fill="#333" {{ end }}
          d="m 1770,2133 c -151,-14 -278,-71 -398,-178 -58,-52 -159,-169 -267,-310 -146,-189 -253,-272 -380,-296 -154,-28 -417,36 -537,132 -20,16 -39,29 -42,29 -3,0 4,-24 15,-52 179,-458 646,-727 1269,-729 399,-2 770,137 1029,386 93,89 152,162 205,253 l 36,60 0,132 c 0,129 -1,132 -29,173 -99,142 -312,289 -506,350 -118,36 -297,59 -395,50 z" />
     
       <text
@@ -26,8 +27,9 @@
   </g>
 
   <g>
-    <a xlink:title="Next Page" xlink:href="/page2?/">
+    <a xlink:title="Next Page" xlink:href="{{ if .Paginator.HasNext }}{{ .URL }}page/{{ .Paginator.Next.PageNumber }}#scroll-down{{ else }}#scroll-down{{ end }}">
       <path transform="matrix(-0.1,0,0,-0.1,539.90695,270.43404)"
+        {{ if not .Paginator.HasNext }} fill="#333" {{ end }}
          d="m 1770,2133 c -151,-14 -278,-71 -398,-178 -58,-52 -159,-169 -267,-310 -146,-189 -253,-272 -380,-296 -154,-28 -417,36 -537,132 -20,16 -39,29 -42,29 -3,0 4,-24 15,-52 179,-458 646,-727 1269,-729 399,-2 770,137 1029,386 93,89 152,162 205,253 l 36,60 0,132 c 0,129 -1,132 -29,173 -99,142 -312,289 -506,350 -118,36 -297,59 -395,50 z" />
 
       <text
@@ -40,6 +42,6 @@
          x="312.02304"
          id="tspan3370-9">NEXT</tspan>
       </text>
-  </a>
+    </a>
   </g>
 </svg>
