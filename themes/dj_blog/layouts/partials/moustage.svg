@@ -1,0 +1,48 @@
+<svg version="1.0" xmlns:svg="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 540.8 270.4"
+   height="338"
+   width="676"
+   >
+  <rect
+     y="104.26712"
+     x="266.28152"
+     height="23.78112"
+     width="7.7037411"
+     id="rect3366"
+     style="fill:#000000;"/>
+  <g
+     style="fill:#000000;stroke:none"
+     id="g3340"
+     transform="matrix(0.1,0,0,-0.1,0.11842105,270.51842)">
+    <path
+       id="path3342"
+       d="m 1770,2133 c -151,-14 -278,-71 -398,-178 -58,-52 -159,-169 -267,-310 -146,-189 -253,-272 -380,-296 -154,-28 -417,36 -537,132 -20,16 -39,29 -42,29 -3,0 4,-24 15,-52 179,-458 646,-727 1269,-729 399,-2 770,137 1029,386 93,89 152,162 205,253 l 36,60 0,132 c 0,129 -1,132 -29,173 -99,142 -312,289 -506,350 -118,36 -297,59 -395,50 z" />
+  </g>
+  <g
+     id="g3340-8"
+     transform="matrix(-0.1,0,0,-0.1,539.90695,270.43404)"
+     style="fill:#000000;stroke:none">
+    <path
+       id="path3342-4"
+       d="m 1770,2133 c -151,-14 -278,-71 -398,-178 -58,-52 -159,-169 -267,-310 -146,-189 -253,-272 -380,-296 -154,-28 -417,36 -537,132 -20,16 -39,29 -42,29 -3,0 4,-24 15,-52 179,-458 646,-727 1269,-729 399,-2 770,137 1029,386 93,89 152,162 205,253 l 36,60 0,132 c 0,129 -1,132 -29,173 -99,142 -312,289 -506,350 -118,36 -297,59 -395,50 z" />
+  </g>
+  <text
+     transform="matrix(0.96122904,-0.27575121,0.27575121,0.96122904,0,0)"
+     id="text3368"
+     y="196.89297"
+     x="37.674305"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Fontdiner Swanky';-inkscape-font-specification:'Fontdiner Swanky';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"><tspan
+       y="196.89297"
+       x="37.674305"
+       id="tspan3370">PREV</tspan></text>
+  <text
+     transform="matrix(0.96742281,0.25316616,-0.25316616,0.96742281,0,0)"
+     id="text3368-1"
+     y="59.317158"
+     x="312.02304"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Fontdiner Swanky';-inkscape-font-specification:'Fontdiner Swanky';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"><tspan
+       y="59.317158"
+       x="312.02304"
+       id="tspan3370-9">NEXT</tspan></text>
+</svg>
