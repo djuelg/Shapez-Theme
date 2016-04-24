@@ -26,9 +26,9 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 # TODO:
 - "UP" Button im Footer
 - mehr Farbe in die Timeline
-- Mustage Nav
 - Topbar Vor- / Zurück Buttons [done]
   - mit Bildern
+- "Last Page" / "First Page" Lippen
 - Titlescreen automatischer Bilderwechsel
 - Bucketlist Template erstellen
 - 404 Page (viele kleine 404 zeichen über svg)
