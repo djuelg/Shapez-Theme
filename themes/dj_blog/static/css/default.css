@@ -329,13 +329,27 @@ li:before {
   margin-bottom: 0.1em;
 }
 
-.mustage {
+.moustage {
 	display: flex;
     align-items: center;
     justify-content: center;
 	height: 200px;
-	margin-top: -50px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
 	padding-bottom: 50px;
+	fill: #008080;
+}
+
+.moustage a text {
+	font-size:56px;
+	line-height:125%;
+	font-family:'Fontdiner Swanky';
+	fill: #EFFFFF;
+}
+
+.moustage a:hover {
+	fill: #FF7400;
 }
 
 .footer-container {
