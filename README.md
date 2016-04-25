@@ -24,7 +24,7 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 - responsive webdesign
 
 # TODO:
-- mehr Farbe in die Timeline
+- mehr Farbe in die Timeline [?]
 - Topbar Vor- / Zurück Buttons [done]
   - mit Bildern
 - "Last Page" / "First Page" Lippen
