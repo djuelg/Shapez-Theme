@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+        <script src="/js/single-text-align.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+        {{ range .Data.Pages.ByPublishDate }}
+            <div class="top-nav">
+                <img src="{{ .Site.Params.logo }}">
+                <h3> Blog Title </h3>
+                <text>·</text>
+                <a href="{{ .Site.Params.button_1 }}">Home</a>
+                <a href="{{ .Site.Params.button_2 }}">Playground</a>
+                <a href="{{ .Site.Params.button_3 }}" rel="me">About</a>
+                <text>·</text>              
+                    <a href="{{if .PrevInSection }}{{.PrevInSection.Permalink}}{{ end }}"
+                        {{if not .PrevInSection }} style="color: gray !important; cursor: not-allowed;" {{ end }}>Prev</a>        
+                    <a href="{{if .NextInSection }}{{.NextInSection.Permalink}}{{ end }}"
+                        {{if not .NextInSection }} style="color: gray !important; cursor: not-allowed;" {{ end }}>Next</a>             
+            </div>
+
+            <div class="side-nav">
+                {{ partial "sidebar.svg" . }}
+            </div>
+
+            <div class="article-header-container">
+                <div class="article-header">
+                    <div class="publish-date" style="margin-top: 0px;">
+                        <h3>{{ .Date.Format "02" }}</h3></br>{{ .Date.Format "January" | upper }}
+                    </div>
+                    <h1>{{ .Title }}</h1>
+                </div>
+            </div>
+            <div class="article-meta-inf">
+                <a href="/about/" rel="me">by {{ .Site.Author.name }} </a>  
+                <text> &nbsp; · &nbsp; {{ .ReadingTime }} minutes reading time</text>  
+                <a href="#"><img id="alignJustify" src="/images/justify.svg"></a>
+                <a href="#"><img id="alignLeft" src="/images/left.svg"></a>
+            </div>
+            <div id="article-body">
+                    {{ .Content }}
+            </div>
+        {{ end }}
+            {{ partial "footer.html" . }}
+        </div>
+    </body>
+</html>
