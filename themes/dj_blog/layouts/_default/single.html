@@ -13,13 +13,11 @@
     			<a href="{{ .Site.Params.button_1 }}">Home</a>
     			<a href="{{ .Site.Params.button_2 }}">Playground</a>
     			<a href="{{ .Site.Params.button_3 }}" rel="me">About</a>
-                <text>·</text>
-                {{if .PrevInSection}}
-                    <a href="{{.PrevInSection.Permalink}}">Prev</a>
-                {{ end }}
-                {{if .NextInSection}}
-                    <a href="{{.NextInSection.Permalink}}">Next</a>
-                {{ end }}
+                <text>·</text>              
+                    <a href="{{if .PrevInSection }}{{.PrevInSection.Permalink}}{{ end }}"
+                        {{if not .PrevInSection }} style="color: gray !important; cursor: not-allowed;" {{ end }}>Prev</a>        
+                    <a href="{{if .NextInSection }}{{.NextInSection.Permalink}}{{ end }}"
+                        {{if not .NextInSection }} style="color: gray !important; cursor: not-allowed;" {{ end }}>Next</a>             
         	</div>
 
             <div class="side-nav">
