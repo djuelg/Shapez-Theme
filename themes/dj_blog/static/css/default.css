@@ -238,7 +238,7 @@
     align-items: center;
     justify-content: center;
 	right: -7px;
-	top: 20%;
+	top: calc(50% - 275px);
 	width: 120px;
 	height: 550px;
 	text-align: right;
