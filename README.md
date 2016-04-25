@@ -24,11 +24,9 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 - responsive webdesign
 
 # TODO:
-- mehr Farbe in die Timeline [?]
-- Topbar Vor- / Zurück Buttons [done]
-  - mit Bildern
 - "Last Page" / "First Page" Lippen
 - Titlescreen automatischer Bilderwechsel
-- Bucketlist Template erstellen
-- 404 Page (viele kleine 404 zeichen über svg)
 - playground als eingene section, alle artikel untereinander (content liste)
+- 404 Page (viele kleine 404 zeichen über svg)
+
+- mehr Farbe in die Timeline [?]
