@@ -28,10 +28,11 @@
                     </div>
                 </div>
             {{ end }}
-
+                {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
                 <div class="moustage">
                     {{ partial "moustage.svg" . }}
                 </div>
+                {{ end }}
             </div>
             {{ partial "footer.html" . }}
         </div>
