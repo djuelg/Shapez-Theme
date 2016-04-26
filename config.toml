@@ -8,7 +8,7 @@ title = "Shapez Theme"
 languageCode = "en-US"
 MetaDataFormat = "toml"
 theme = "dj_blog"
-paginate = 2
+paginate = 6
 PaginatePath = "page"
 googleAnalytics = "UA-123-45"
 

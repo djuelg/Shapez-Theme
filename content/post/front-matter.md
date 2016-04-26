@@ -1,7 +1,16 @@
 ---
+aliases:
+- /doc/front-matter/
+lastmod: 2015-12-23
 date: 2013-07-01
+menu:
+  main:
+    parent: content
+next: /content/sections
+prev: /content/organization
 title: Front Matter
 weight: 20
+toc: true
 ---
 
 The **front matter** is one of the features that gives Hugo its strength. It enables
