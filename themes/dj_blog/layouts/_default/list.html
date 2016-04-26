@@ -25,19 +25,15 @@
                 {{ partial "sidebar.svg" . }}
             </div>
 
-            <div class="article-header-container">
-                <div class="article-header">
-                    <div class="publish-date" style="margin-top: 0px;">
+            <div class="playground-header-container">
+                <div class="playground-header">
+                    <div class="publish-date" style="margin-top: 0px; float: none">
                         <h3>{{ .Date.Format "02" }}</h3></br>{{ .Date.Format "January" | upper }}
                     </div>
                     <h1>{{ .Title }}</h1>
+                    <a href="#"><img id="alignJustify" src="/images/justify.svg"></a>
+                    <a href="#"><img id="alignLeft" src="/images/left.svg"></a>
                 </div>
-            </div>
-            <div class="article-meta-inf">
-                <a href="/about/" rel="me">by {{ .Site.Author.name }} </a>  
-                <text> &nbsp; · &nbsp; {{ .ReadingTime }} minutes reading time</text>  
-                <a href="#"><img id="alignJustify" src="/images/justify.svg"></a>
-                <a href="#"><img id="alignLeft" src="/images/left.svg"></a>
             </div>
             <div id="article-body">
                     {{ .Content }}

@@ -154,12 +154,29 @@
 	}
 }
 
+/* Playground page classes */
+.playground-header-container {
+	height: 140px; 
+	margin-top: 35px;
+}
+
+.playground-header {
+	max-width: 900px;
+	display: flex;  
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+}
+
 /* Single page classes */
 
 .article-header-container {
 	height: 140px; 
 	margin-top: 35px;
 	background-color: #4CABAB;
+	color: #EFFFFF;
 	box-shadow: 0 1px 5px black inset;
 }
 
@@ -171,7 +188,6 @@
     padding-left: 25px;
     padding-right: 25px;
     align-items: center;
-	color: #EFFFFF;
 }
 
 .article-header h1 {
