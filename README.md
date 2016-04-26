@@ -24,9 +24,9 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 - responsive webdesign
 
 # TODO:
-- "Last Page" / "First Page" Lippen
-- Titlescreen automatischer Bilderwechsel
-- playground als eingene section, alle artikel untereinander (content liste)
+- globales seiten icon
+- "Last Page" / "First Page" Lippen oder Brille
+- playground verbessern (title container)
 - 404 Page (viele kleine 404 zeichen über svg)
 
 - mehr Farbe in die Timeline [?]

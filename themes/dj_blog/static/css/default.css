@@ -72,6 +72,28 @@
 	x: 2114.7;
 }
 
+#svg-image-1 {
+	animation: hideshow 30s ease-in-out infinite;
+}
+
+#svg-image-2 {
+	opacity: 0.3;
+	animation: hideshow 30s 10s ease-in-out infinite;
+}
+
+#svg-image-3 {
+	opacity: 0.3;
+	animation: hideshow 30s 20s ease-in-out infinite;
+}
+
+@keyframes hideshow {
+  0% { opacity: 1; }
+  26% { opacity: 1; }
+  41% { opacity: 0; }
+  90% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 .timeline-container {
 	max-width: 900px;
 	position: relative;
