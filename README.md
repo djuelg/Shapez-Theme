@@ -25,6 +25,7 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 
 # TODO:
 - globales seiten icon
+- footer IMMER erst nach scroll sichtbar (also kurze seiten bewusst verlängern)
 - sidebar buttons wieder wie vorher
 - sidebar-playground ohne nav-buttons
 - playground title anders gestalten

@@ -372,26 +372,34 @@ li:before {
 }
 
 .moustage {
-	display: flex;
+	display: box;
     align-items: center;
     justify-content: center;
-	height: 200px;
-	width: 500px;
+	height: 300px;
+	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-bottom: 50px;
-	fill: #008080;
+	fill: #4CABAB;
+}
+
+.moustage g a {
+	fill: #333;
 }
 
 .moustage a text {
-	font-size:56px;
-	line-height:125%;
-	font-family:'Fontdiner Swanky';
-	fill: #EFFFFF;
+	fill: #008080;
 }
 
 .moustage a:hover {
 	fill: #FF7400;
+}
+
+.moustage a:hover text {
+	fill: #FFB03C;
+}
+
+.moustage g a text {
+	fill: gray;
 }
 
 .footer-container {
