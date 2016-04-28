@@ -311,6 +311,21 @@
 	}
 }
 
+/* 404 page */
+.error404 {
+	height: 100%;
+	width: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	background-color: #4CABAB;
+	color: #008080;
+	font-size: 80px;
+	font-weight: 800;
+	font-family: 'Fontdiner Swanky', cursive;
+}
+
 /* General classes */
 
 html, body {
