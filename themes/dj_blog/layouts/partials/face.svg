@@ -54,7 +54,7 @@
     </a>
   </g>
 
-  <a xlink:title="Next Page" xlink:href="{{ if .Paginator.HasNext }}{{ .Paginator.Next.URL }}#scroll-down{{ else }}#scroll-down{{ end }}">
+  <a xlink:title="Next Page" xlink:href="{{ if .Paginator.HasNext }}{{ .Paginator.Next.URL }}#scroll-down{{ else }}javascript:void(0);{{ end }}">
     <g transform="matrix(0.94832872,0,0,0.94832872,-14.890385,-713.8633)">
       <path transform="matrix(-0.10710526,0,0,-0.10710526,523.94437,987.8728)"
        d="M 796,1359 C 634,1335 497,1278 420,1201 361,1142 344,1111 319,1013 239,699 413,295 683,166 795,113 891,95 1060,95 c 120,1 159,4 225,23 109,31 208,81 280,141 183,151 318,456 302,682 -16,235 -202,375 -557,418 -99,13 -429,12 -514,0 z"
@@ -79,7 +79,7 @@
     </text>
   </a>
 
-  <a xlink:title="Previous Page" xlink:href="{{ if .Paginator.HasPrev }}{{ .Paginator.Prev.URL }}#scroll-down{{ else }}#scroll-down{{ end }}">
+  <a xlink:title="Previous Page" xlink:href="{{ if .Paginator.HasPrev }}{{ .Paginator.Prev.URL }}#scroll-down{{ else }}javascript:void(0);{{ end }}">
     <g transform="matrix(0.94832872,0,0,0.94832872,-14.890385,-713.8633)">
       <path transform="matrix(0.10710526,0,0,-0.10710526,64.290535,984.87746)"
        d="M 796,1359 C 634,1335 497,1278 420,1201 361,1142 344,1111 319,1013 239,699 413,295 683,166 795,113 891,95 1060,95 c 120,1 159,4 225,23 109,31 208,81 280,141 183,151 318,456 302,682 -16,235 -202,375 -557,418 -99,13 -429,12 -514,0 z" />

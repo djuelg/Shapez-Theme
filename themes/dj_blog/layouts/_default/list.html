@@ -15,9 +15,9 @@
                 <a href="{{ .Site.Params.button_2 }}">Playground</a>
                 <a href="{{ .Site.Params.button_3 }}" rel="me">About</a>
                 <text>·</text>              
-                    <a href="{{if .PrevInSection }}{{.PrevInSection.Permalink}}{{ end }}"
+                    <a href="{{if .PrevInSection }}{{.PrevInSection.Permalink}}{{ else }}javascript:void(0);{{ end }}"
                         {{if not .PrevInSection }} style="color: gray !important; cursor: not-allowed;" {{ end }}>Prev</a>        
-                    <a href="{{if .NextInSection }}{{.NextInSection.Permalink}}{{ end }}"
+                    <a href="{{if .NextInSection }}{{.NextInSection.Permalink}}{{ else }}javascript:void(0);{{ end }}"
                         {{if not .NextInSection }} style="color: gray !important; cursor: not-allowed;" {{ end }}>Next</a>             
             </div>
 
@@ -31,8 +31,8 @@
                         <h3>{{ .Date.Format "02" }}</h3></br>{{ .Date.Format "January" | upper }}
                     </div>
                     <h1>{{ .Title }}</h1>
-                    <a href="#"><img id="alignJustify" src="/images/justify.svg"></a>
-                    <a href="#"><img id="alignLeft" src="/images/left.svg"></a>
+                    <a href="javascript:void(0);"><img id="alignJustify" src="/images/justify.svg"></a>
+                    <a href="javascript:void(0);"><img id="alignLeft" src="/images/left.svg"></a>
                 </div>
             </div>
             <div id="article-body">
