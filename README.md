@@ -24,11 +24,5 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 - responsive webdesign
 
 # TODO:
-- globales seiten icon
-- footer IMMER erst nach scroll sichtbar (also kurze seiten bewusst verlängern)
 - sidebar-playground ohne nav-buttons
-- playground title anders gestalten
-- 404 Page (viele kleine 404 zeichen über svg)
 - seite soll nicht nach oben scrollen, wenn text layout geändert wird
-
-- mehr Farbe in die Timeline [?]

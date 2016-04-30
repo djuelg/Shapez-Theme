@@ -162,12 +162,67 @@
 
 .playground-header {
 	max-width: 900px;
-	display: flex;  
     margin-left: auto;
     margin-right: auto;
     padding-left: 25px;
     padding-right: 25px;
-    align-items: center;
+    text-align: left;
+}
+
+.playground-header table {
+	height: inherit;
+	width: 100%;
+	max-width: inherit;
+}
+
+.playground-header table tr th {
+	width: 40%;
+}
+
+.playground-line {
+  background-color: #333;
+  color: #333;
+  border: #333;
+  height: 1px;
+  width: 100%;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.playground-date {
+	height: 104px;
+	width: 104px;
+	border-radius: 50%;
+	background-color: #333;
+	text-align: center;
+	line-height: 1em;
+	color: #EFFFFF;
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-left: 34px;
+	padding-top: 0px;
+}
+
+.playground-date h3 {
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin-bottom: 0.1em;
+}
+
+.playground-body {
+	max-width: 900px;
+	min-height: 60vh;
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding-bottom: 50px;
 }
 
 /* Single page classes */

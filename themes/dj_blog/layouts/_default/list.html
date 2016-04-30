@@ -27,16 +27,22 @@
 
             <div class="playground-header-container">
                 <div class="playground-header">
-                    <div class="publish-date" style="margin-top: 0px; float: none">
-                        <h3>{{ .Date.Format "02" }}</h3></br>{{ .Date.Format "January" | upper }}
-                    </div>
-                    <h1>{{ .Title }}</h1>
-                    <a href="javascript:void(0);"><img id="alignJustify" src="/images/justify.svg"></a>
-                    <a href="javascript:void(0);"><img id="alignLeft" src="/images/left.svg"></a>
+                    <table>
+                        <tr>
+                            <th><hr class="playground-line"></th>
+                            <th style="width: 104px;">
+                                <div class="playground-date">
+                                    <h3>{{ .Date.Format "02" }}</h3></br>{{ .Date.Format "January" | upper }}
+                                </div>
+                            </th>
+                            <th><hr class="playground-line"></th>
+                        </tr>
+                    </table>
                 </div>
             </div>
-            <div id="article-body">
-                    {{ .Content }}
+            <div class="playground-body">
+                <h1 style="margin: 0px; text-align: center;">{{ .Title }}</h1>
+                {{ .Content }}
             </div>
         {{ end }}
             {{ partial "footer.html" . }}
