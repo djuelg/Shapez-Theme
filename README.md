@@ -25,4 +25,10 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 
 # TODO:
 - sidebar-playground ohne nav-buttons
-- seite soll nicht nach oben scrollen, wenn text layout geändert wird
+- auf kurzen seiten soll footer nicht erst nach scroll sichtbar sein
+- Moustage-Nav soll nicht reagieren wenn etwas nicht geht
+- Links in Start-Screen einfügen, nur wohin?
+- Fußzeile ohne farbliche Abhebung ausprobieren
+- Durchsichtige Kreis Hitboxen in SVG integrieren
+- Gradient Effekte ausprobieren
+
