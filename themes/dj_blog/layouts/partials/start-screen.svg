@@ -21,6 +21,11 @@
       <feOffset dy="3" dx="3" result="offset" id="feOffset3553"/>
       <feComposite operator="atop" in="offset" in2="SourceGraphic" result="composite2" id="feComposite3555"/>
     </filter>
+    <linearGradient id="lgrad" x1="0%" y1="100%" x2="100%" y2="0%" >
+      <stop offset="0%" style="stop-color:rgb(76,171,171);stop-opacity:1" />
+      <stop offset="66%" style="stop-color:rgb(76,171,171);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,116,0);stop-opacity:1" />
+    </linearGradient>
   </defs>
   <image y="234.615" x="1114.735" id="svg-image-3" xlink:href="/images/start-screen/mallorca.png" preserveAspectRatio="none" height="2009" width="2009" image-rendering="optimizeQuality"/>
   <image y="234.615" x="1114.735" id="svg-image-2" xlink:href="/images/start-screen/ladder.png" preserveAspectRatio="none" height="2009" width="2009" image-rendering="optimizeQuality"/>
