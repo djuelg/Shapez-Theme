@@ -9,7 +9,7 @@
         {{ range .Data.Pages.ByPublishDate }}
             <div class="top-nav">
                 <img src="{{ .Site.Params.logo }}">
-                <h3> Blog Title </h3>
+                <h3>{{ .Site.Title }}</h3>
                 <text>·</text>
                 <a href="{{ .Site.Params.button_1 }}">Home</a>
                 <a href="{{ .Site.Params.button_2 }}">Playground</a>
