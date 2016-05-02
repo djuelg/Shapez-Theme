@@ -59,7 +59,7 @@
     <a class="side-nav" xlink:title="About this page" xlink:href="{{ .Site.Params.button_3 }}">
       <path d="M62.16 0c6.7 0 10.05 4.57 10.05 9.8 0 6.5-5.8 12.54-13.4 12.54-6.33 0-10.03-3.75-9.85-9.94 0-5.22 4.4-12.4 13.2-12.4zM41.54 100c-5.28 0-9.16-3.26-5.46-17.6l6.07-25.47c1.06-4.08 1.23-5.7 0-5.7-1.6 0-8.45 2.8-12.5 5.58L27 52.4C39.86 41.5 54.66 35.08 61 35.08c5.3 0 6.17 6.36 3.53 16.15l-6.95 26.76c-1.23 4.73-.7 6.36.53 6.36 1.6 0 6.8-1.96 11.9-6.04l3 4.08C60.5 95.1 46.83 100 41.54 100z" transform="matrix(1.087 0 0 1.2 178.888 205.7)" filter="url(#f)"/>
     </a>
-
+    {{ if not (in .Permalink .Site.Params.button_2)}}
     <a class="side-nav" xlink:title="Previous Article" xlink:href="{{if .PrevInSection}}{{.PrevInSection.Permalink}}{{else}}javascript:void(0);{{end}}">
       <path d="M1149 1784c-233-240-425-440-427-444-1-4 55-62 125-130s269-261 442-429l314-306 137 143 137 143-191 187c-105 103-240 234-299 292l-108 105 291 300 290 299-137 138c-76 76-140 138-143 138s-197-196-431-436z" transform="matrix(.056 0 0 -.057 112.114 626.942)" filter="url(#c)" {{if not .PrevInSection}} fill="#4CABAB" style="cursor: not-allowed;" {{end}}/>
     </a>
@@ -67,6 +67,7 @@
     <a class="side-nav" xlink:title="Next Article" xlink:href="{{if .NextInSection}}{{.NextInSection.Permalink}}{{else}}javascript:void(0);{{end}}">
       <path d="M1149 1784c-233-240-425-440-427-444-1-4 55-62 125-130s269-261 442-429l314-306 137 143 137 143-191 187c-105 103-240 234-299 292l-108 105 291 300 290 299-137 138c-76 76-140 138-143 138s-197-196-431-436z" transform="matrix(-.056 0 0 -.057 358.62 626.815)" filter="url(#d)" {{if not .NextInSection}} fill="#4CABAB" style="cursor: not-allowed;" {{end}}/>
     </a>
+    {{ end }}
     
 
     <image y="797.66" x="123.81" xlink:href="{{ .Site.Params.logo }}" preserveAspectRatio="xMidYMid meet" height="230.68" width="230.68" image-rendering="optimizeQuality"/>
