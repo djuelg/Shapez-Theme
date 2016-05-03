@@ -58,6 +58,7 @@
     <g transform="matrix(0.94832872,0,0,0.94832872,-14.890385,-713.8633)">
       <path transform="matrix(-0.10710526,0,0,-0.10710526,523.94437,987.8728)"
        d="M 796,1359 C 634,1335 497,1278 420,1201 361,1142 344,1111 319,1013 239,699 413,295 683,166 795,113 891,95 1060,95 c 120,1 159,4 225,23 109,31 208,81 280,141 183,151 318,456 302,682 -16,235 -202,375 -557,418 -99,13 -429,12 -514,0 z"
+       {{if not .Paginator.HasNext}} fill="#4CABAB" style="cursor: not-allowed;" {{end}}
        id="path3475-3" />
 
       <rect
@@ -65,6 +66,7 @@
        x="482.20163"
        height="17.142857"
        width="31.607143"
+       {{if not .Paginator.HasNext}} fill="#4CABAB" style="cursor: not-allowed;" {{end}}
        id="rect3501-4" />
     </g>
 
@@ -74,6 +76,7 @@
        x="333.64105"
        y="56.871277">
        <tspan
+         {{if not .Paginator.HasNext}} fill="#008080" style="cursor: not-allowed;" {{end}}
          x="312"
          y="156">NEXT</tspan>
     </text>
@@ -82,13 +85,15 @@
   <a xlink:title="Previous Page" xlink:href="{{ if .Paginator.HasPrev }}{{ .Paginator.Prev.URL }}#scroll-down{{ else }}javascript:void(0);{{ end }}">
     <g transform="matrix(0.94832872,0,0,0.94832872,-14.890385,-713.8633)">
       <path transform="matrix(0.10710526,0,0,-0.10710526,64.290535,984.87746)"
-       d="M 796,1359 C 634,1335 497,1278 420,1201 361,1142 344,1111 319,1013 239,699 413,295 683,166 795,113 891,95 1060,95 c 120,1 159,4 225,23 109,31 208,81 280,141 183,151 318,456 302,682 -16,235 -202,375 -557,418 -99,13 -429,12 -514,0 z" />
+       d="M 796,1359 C 634,1335 497,1278 420,1201 361,1142 344,1111 319,1013 239,699 413,295 683,166 795,113 891,95 1060,95 c 120,1 159,4 225,23 109,31 208,81 280,141 183,151 318,456 302,682 -16,235 -202,375 -557,418 -99,13 -429,12 -514,0 z" 
+       {{if not .Paginator.HasPrev}} fill="#4CABAB" style="cursor: not-allowed;" {{end}} />
 
       <rect
        y="846.29071"
        x="76.071426"
        height="17.142857"
        width="31.607143"
+       {{if not .Paginator.HasPrev}} fill="#4CABAB" style="cursor: not-allowed;" {{end}}
        id="rect3501" />
     </g>
 
@@ -98,6 +103,7 @@
        x="47.587101"
        y="198.2056">
        <tspan
+         {{if not .Paginator.HasPrev}} fill="#008080" style="cursor: not-allowed;" {{end}}
          x="92"
          y="155">PREV</tspan>
     </text>
