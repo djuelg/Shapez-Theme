@@ -24,9 +24,4 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 - responsive webdesign
 
 # TODO:
-- "Message of the Day"-like Banner in index einfügen
-- auf kurzen seiten soll footer nicht erst nach scroll sichtbar sein
-- Links in Start-Screen einfügen, nur wohin?
 - Durchsichtige Kreis Hitboxen in SVG integrieren
-- Handy optimierung
-
