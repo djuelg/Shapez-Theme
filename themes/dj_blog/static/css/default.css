@@ -154,6 +154,13 @@
 	}
 }
 
+@media only screen and (min-aspect-ratio: 16/10) {
+  .start-screen {
+		width: 98vw;
+		height: 96vh;
+	}
+}
+
 /* Playground page classes */
 .playground-header-container {
 	height: 140px; 
