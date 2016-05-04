@@ -29,9 +29,9 @@
                 </div>
             {{ end }}
                 {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-                <div class="moustage">
-                    {{ partial "face.svg" . }}
-                </div>
+                    <div class="moustage">
+                        {{ partial "face.svg" . }}
+                    </div>
                 {{ end }}
             </div>
             {{ partial "footer.html" . }}

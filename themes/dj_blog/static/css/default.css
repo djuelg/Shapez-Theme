@@ -524,6 +524,7 @@ li:before {
 	text-decoration: none;
 }
 
+/* Effects */
 .lin-gradient {
     background: -moz-linear-gradient(45deg, #4CABAB 0%, #4CABAB 66%, #FF7400 100%); /* ff3.6+ */
     background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #4CABAB), color-stop(66%, #4CABAB), color-stop(100%, #FF7400)); /* safari4+,chrome */

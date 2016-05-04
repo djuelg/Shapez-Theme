@@ -6,40 +6,40 @@
     </head>
     <body>
         <div class="wrapper">
-        {{ range .Data.Pages.ByPublishDate }}
-            <div class="top-nav">
-                <img src="{{ .Site.Params.logo }}">
-                <h3>{{ .Site.Title }}</h3>
-                <text>·</text>
-                <a href="{{ .Site.Params.button_1 }}">Home</a>
-                <a href="{{ .Site.Params.button_2 }}">Playground</a>
-                <a href="{{ .Site.Params.button_3 }}" rel="me">About</a>
-            </div>
-
-            <div class="side-nav">
-                {{ partial "sidebar.svg" . }}
-            </div>
-
-            <div class="playground-header-container">
-                <div class="playground-header">
-                    <table>
-                        <tr>
-                            <th><hr class="playground-line"></th>
-                            <th style="width: 104px;">
-                                <div class="playground-date">
-                                    <h3>{{ .Date.Format "02" }}</h3></br>{{ .Date.Format "January" | upper }}
-                                </div>
-                            </th>
-                            <th><hr class="playground-line"></th>
-                        </tr>
-                    </table>
+            {{ range .Data.Pages.ByPublishDate }}
+                <div class="top-nav">
+                    <img src="{{ .Site.Params.logo }}">
+                    <h3>{{ .Site.Title }}</h3>
+                    <text>·</text>
+                    <a href="{{ .Site.Params.button_1 }}">Home</a>
+                    <a href="{{ .Site.Params.button_2 }}">Playground</a>
+                    <a href="{{ .Site.Params.button_3 }}" rel="me">About</a>
                 </div>
-            </div>
-            <div class="playground-body">
-                <h1 style="margin: 0px; text-align: center;">{{ .Title }}</h1>
-                {{ .Content }}
-            </div>
-        {{ end }}
+
+                <div class="side-nav">
+                    {{ partial "sidebar.svg" . }}
+                </div>
+
+                <div class="playground-header-container">
+                    <div class="playground-header">
+                        <table>
+                            <tr>
+                                <th><hr class="playground-line"></th>
+                                <th style="width: 104px;">
+                                    <div class="playground-date">
+                                        <h3>{{ .Date.Format "02" }}</h3></br>{{ .Date.Format "January" | upper }}
+                                    </div>
+                                </th>
+                                <th><hr class="playground-line"></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="playground-body">
+                    <h1 style="margin: 0px; text-align: center;">{{ .Title }}</h1>
+                    {{ .Content }}
+                </div>
+            {{ end }}
             {{ partial "footer.html" . }}
         </div>
     </body>

@@ -1,13 +1,10 @@
-#hugo server --theme=dj_blog --buildDrafts  --bind="0.0.0.0"
-#https://github.com/spf13/hugo/tree/master/docs/content/content
-
-name = "dj_blog"
+name = "Shapez Theme"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-homepage = "http://siteforthistheme.com/"
-tags = ["hugo", "blog", "Shapez", "SVG", "designer"]
+homepage = ""
+tags = ["hugo", "blog", "Shapez", "SVG", "design"]
 min_version = 0.14
 
 [author]
   name = "Dominik Juelg"
-  homepage = "https://github.com/djuelg-student"
+  homepage = "https://github.com/djuelg"

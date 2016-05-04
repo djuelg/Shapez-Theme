@@ -26,12 +26,3 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 # Special Thanks
 Special thanks goes to Freepik, Daniel Bruce and Plainicon from [www.flaticon.com](http://www.flaticon.com) for their great icons!
 Furthermore I would like to thank [CrimsonRay](https://github.com/CrimsonRay), the creator of the slender-Theme. He inspired me to make my own theme and I reused some of his code.
-
-# TODO:
-- Durchsichtige Kreis Hitboxen in SVG integrieren
-- Projekt aufräumen
-- SampleContent hinzufügen
-- Std Frontmatter anpassen
-- Ordnerstruktur verschieben
-- Credits in Readme und theme.toml
-- add "hideshow" for all browsers
