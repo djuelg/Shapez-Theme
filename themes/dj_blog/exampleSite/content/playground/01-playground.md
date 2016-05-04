@@ -1,9 +1,6 @@
 ---
-lastmod: 2015-08-04
-date: 2014-05-26
-linktitle: Comments
+date: 2016-05-04
 title: The "Playground section"
-weight: 30
 ---
 
 Here you can see the "palyground"-section.

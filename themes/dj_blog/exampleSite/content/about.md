@@ -1,7 +1,6 @@
 ---
 date: 2016-04-21
 title: About
-weight: 70
 ---
 
 The shapez theme is a theme created with [hugo](http://gohugo.io/).

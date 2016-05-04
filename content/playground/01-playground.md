@@ -1,6 +1,6 @@
 ---
 lastmod: 2015-08-04
-date: 2014-05-26
+date: 2016-05-04
 linktitle: Comments
 title: The "Playground section"
 weight: 30
