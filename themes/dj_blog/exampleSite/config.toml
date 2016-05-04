@@ -1,0 +1,35 @@
+# Creator: djuelg @ https://github.com/djuelg
+
+# Run via: hugo server --theme=shapez --buildDrafts  --bind="0.0.0.0"
+
+baseurl = "http://0.0.0.0/"
+title = "Shapez Theme"
+languageCode = "en-US"
+MetaDataFormat = "toml"
+theme = "shapez"
+paginate = 8
+PaginatePath = "page"
+googleAnalytics = ""
+
+[author]
+    name = "djuelg"
+
+[params]
+    # Homepage Start-Screen-SVG
+    title_l1 = "Shapez Theme"
+    title_l2 = ""
+    subtitle_l1 = "Shapez is a theme created for hugo"
+    subtitle_l2 = "with SVG pictures as partials."
+    subtitle_l3 = ""
+    title_link = "/about/"
+    subtitle_link = ""
+
+    # Enter links for the buttons (button one has the house sign)
+    button_1 = "/"
+    button_2 = "/playground/"
+    button_3 = "/about/"
+
+    footer = "Copyright 2016"
+    keywords = "hugo, blog, Shapez, SVG, design"
+
+    logo = "/images/logo.png"
