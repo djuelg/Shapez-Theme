@@ -6,7 +6,7 @@
     </head>
     <body>
         <div class="wrapper">
-            {{ range .Data.Pages.ByPublishDate }}
+            {{ range .Data.Pages.ByDate.Reverse }}
                 <div class="top-nav">
                     <img src="{{ .Site.Params.logo }}">
                     <h3>{{ .Site.Title }}</h3>

@@ -35,3 +35,7 @@ Furthermore I would like to thank [CrimsonRay](https://github.com/CrimsonRay), t
 - Ordnerstruktur verschieben
 - Credits in Readme und theme.toml
 - add "hideshow" for all browsers
+- Sortierreihenfolgen überdenken
+- durch Klick auf "Last", den letzten Artikel zeigen (automatisch runter scrollen)
+- hover text-layout -> orange
+- Playground: Datum weniger whitespace nach oben
