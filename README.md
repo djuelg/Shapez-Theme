@@ -25,3 +25,7 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 
 # TODO:
 - Durchsichtige Kreis Hitboxen in SVG integrieren
+- Projekt aufräumen
+- SampleContent hinzufügen
+- Std Frontmatter anpassen
+- Ordnerstruktur verschieben
