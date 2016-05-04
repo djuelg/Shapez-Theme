@@ -285,9 +285,20 @@
 	margin-left: 12px;
 }
 #alignJustify, #alignLeft {
+	float: right;
 	margin-bottom: -6px;
 	margin-right: 3px;
 	height: 25px;
+	width: 25px;
+	fill: #808080;
+}
+
+#alignJustify:hover {
+	fill: #FF7400;
+} 
+
+#alignLeft:hover {
+	fill: #FF7400;
 }
 
 .article-meta-inf {

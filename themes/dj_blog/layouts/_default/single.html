@@ -34,9 +34,10 @@
         	</div>
             <div class="article-meta-inf">
                 <a href="/about/" rel="me">by {{ .Site.Author.name }} </a>  
-                <text> &nbsp; · &nbsp; {{ .ReadingTime }} minutes reading time</text>  
-                <a href="javascript:void(0);"><img id="alignJustify" src="/images/justify.svg"></a>
-                <a href="javascript:void(0);"><img id="alignLeft" src="/images/left.svg"></a>
+                <text> &nbsp; · &nbsp; {{ .ReadingTime }} minutes reading time</text>
+                <a href="javascript:void(0);">{{ partial "left.svg" . }}</a>
+                <a href="javascript:void(0);">{{ partial "justify.svg" . }}</a>
+
             </div>
         	<div id="article-body">
         			{{ .Content }}
