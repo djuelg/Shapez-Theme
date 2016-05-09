@@ -467,6 +467,25 @@ li:before {
   margin-bottom: 0.1em;
 }
 
+.attention-message {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	background-color: #FF7400;
+	text-align: center;
+	line-height: 1em;
+	color: #EFFFFF;
+	float: left;
+	margin-top: -38px;
+	margin-right: 20px;
+}
+
+.attention-message h1 {
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 5em;
+  font-weight: lighter;
+}
+
 #moustage {
 	display: box;
     align-items: center;

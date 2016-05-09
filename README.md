@@ -23,6 +23,9 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 - a comment section would be nice to have
 - responsive webdesign
 
+Attention!
+This theme isn't build with full Internet Explorer Support, nor devices with a low resolution.
+
 # Special Thanks
 Special thanks goes to Freepik, Daniel Bruce and Plainicon from [www.flaticon.com](http://www.flaticon.com) for their great icons!
 Furthermore I would like to thank [CrimsonRay](https://github.com/CrimsonRay), the creator of the slender-Theme. He inspired me to make my own theme and I reused some of his code.
@@ -30,4 +33,3 @@ Furthermore I would like to thank [CrimsonRay](https://github.com/CrimsonRay), t
 # TODO:
 - Durchsichtige Kreis Hitboxen in SVG integrieren
 - Ordnerstruktur verschieben
-- Banner mit orangenem Ausrufezeichen statt Datum ermöglichen

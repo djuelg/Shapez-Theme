@@ -10,6 +10,15 @@
             </div>
 
             <div id="scroll-down" class="timeline-container">
+            {{ if .Site.Params.message }}
+                <div class="timeline-post" style="padding-bottom: 50px;">
+                    <div class="attention-message">
+                        </br><h1>!</h1>
+                    </div>
+                    <h3>{{ .Site.Params.message }}</h3>
+                </div>
+            {{ end }}
+
             {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
             {{ range $paginator.Pages.ByDate.Reverse }}
                 <div class="timeline-post">
