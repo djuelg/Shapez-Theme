@@ -3,10 +3,8 @@ Designed with passion and love.
 Shapez is a modern hugo theme using a lot of SVG graphics.
 SVG is super cool, but be aware - it can also be very nasty and exhausting.
 
-Demo: [](http://djuelg-student.github.io/)
-Source: [](https://github.com/djuelg-student/blogv2)
-
-[add picture]
+Demo: [http://djuelg-student.github.io/](http://djuelg-student.github.io/)
+Source: [https://github.com/djuelg-student/blogv2](https://github.com/djuelg-student/blogv2)
 
 # What it's meant to be
 Initially I designed this theme for my own blog, but I decided to make it an open source project, because I thought other people might like it, too.
@@ -23,8 +21,7 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 - a comment section would be nice to have
 - responsive webdesign
 
-Attention!
-This theme isn't build with full Internet Explorer Support, nor devices with a low resolution.
+Attention! This theme isn't build with full Internet Explorer Support, nor for devices with a low resolution.
 
 # Special Thanks
 Special thanks goes to Freepik, Daniel Bruce and Plainicon from [www.flaticon.com](http://www.flaticon.com) for their great icons!

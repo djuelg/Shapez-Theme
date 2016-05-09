@@ -74,7 +74,9 @@
 
   <a id="start-screen-orange" xlink:title="Scroll down" xlink:href="#scroll-down">
     <path d="M2068.803 2115.878c29.534 24.524 54.15 44.736 54.646 44.95.497.11 7.86-5.593 16.5-12.728l54.508-45.057 38.878-32.006-17.6-14.422-17.602-14.423-23.757 19.467c-13.085 10.7-29.73 24.462-37.098 30.476l-13.342 11.008-36.918-30.628-36.795-30.524-17.524 13.957c-9.65 7.743-17.53 14.267-17.535 14.578-.006.31 24.106 20.723 53.638 45.35z" id="path3599"/>
+    <circle cx="2125" cy="2080" r="120" fill="transparent" />
   </a>
+
   <g id="svg-title">
     {{ if not (eq .Site.Params.title_link "") }}<a xlink:title="Learn more about this page" xlink:href="{{ .Site.Params.title_link }}"> {{ end }}
       <text>
