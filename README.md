@@ -29,13 +29,10 @@ Furthermore I would like to thank [CrimsonRay](https://github.com/CrimsonRay), t
 
 # TODO:
 - Durchsichtige Kreis Hitboxen in SVG integrieren
-- Projekt aufräumen
-- SampleContent hinzufügen
-- Std Frontmatter anpassen
 - Ordnerstruktur verschieben
-- Credits in Readme und theme.toml
 - add "hideshow" for all browsers
-- Sortierreihenfolgen überdenken
 - durch Klick auf "Last", den letzten Artikel zeigen (automatisch runter scrollen)
-- hover text-layout -> orange
 - Playground: Datum weniger whitespace nach oben
+- markdownify Description
+- Banner mit orangenem Ausrufezeichen statt Datum ermöglichen
+- Handy Mindestbreite
