@@ -261,6 +261,7 @@
 .article-header h1 {
   font-weight: lighter;
   font-size: 3.25em;
+  margin: 0;
 }
 
 #article-body {
@@ -442,6 +443,7 @@ li:before {
 .wrapper {
     position: relative;
     min-height: 100%;
+    min-width: 600px;
     height: auto !important;
 }
 

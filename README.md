@@ -30,7 +30,4 @@ Furthermore I would like to thank [CrimsonRay](https://github.com/CrimsonRay), t
 # TODO:
 - Durchsichtige Kreis Hitboxen in SVG integrieren
 - Ordnerstruktur verschieben
-- Playground: Datum weniger whitespace nach oben
-- markdownify Description
 - Banner mit orangenem Ausrufezeichen statt Datum ermöglichen
-- Handy Mindestbreite
