@@ -466,7 +466,7 @@ li:before {
   margin-bottom: 0.1em;
 }
 
-.moustage {
+#moustage {
 	display: box;
     align-items: center;
     justify-content: center;
@@ -477,23 +477,23 @@ li:before {
 	fill: #4CABAB;
 }
 
-.moustage g a {
+#moustage g a {
 	fill: #333;
 }
 
-.moustage a text {
+#moustage a text {
 	fill: #008080;
 }
 
-.moustage a:hover {
+#moustage a:hover {
 	fill: #FF7400;
 }
 
-.moustage a:hover text {
+#moustage a:hover text {
 	fill: #FFB03C;
 }
 
-.moustage g a text {
+#moustage g a text {
 	fill: gray;
 }
 

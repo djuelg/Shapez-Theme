@@ -30,8 +30,6 @@ Furthermore I would like to thank [CrimsonRay](https://github.com/CrimsonRay), t
 # TODO:
 - Durchsichtige Kreis Hitboxen in SVG integrieren
 - Ordnerstruktur verschieben
-- add "hideshow" for all browsers
-- durch Klick auf "Last", den letzten Artikel zeigen (automatisch runter scrollen)
 - Playground: Datum weniger whitespace nach oben
 - markdownify Description
 - Banner mit orangenem Ausrufezeichen statt Datum ermöglichen

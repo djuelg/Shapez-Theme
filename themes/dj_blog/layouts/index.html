@@ -29,7 +29,7 @@
                 </div>
             {{ end }}
                 {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-                    <div class="moustage">
+                    <div id="moustage">
                         {{ partial "face.svg" . }}
                     </div>
                 {{ end }}
