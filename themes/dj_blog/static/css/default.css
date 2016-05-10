@@ -18,7 +18,7 @@
 .start-screen {
   display: block;
   width: 98vw;
-  height: calc(100% - 5vh);
+  height: 96vh;
   min-height: 400px;
   text-align: center;
   margin: 0 auto;
@@ -155,12 +155,42 @@
 	}
 }
 
-@media only screen and (min-aspect-ratio: 16/9) {
+
+@media only screen and (min-aspect-ratio: 16/6) {
   .start-screen {
-		width: 98vw;
-		height: calc(100% - 5vh);
+		width: 66vw;
+		height: 96vh;
 	}
 }
+
+@media only screen and (min-aspect-ratio: 16/7) and (max-aspect-ratio: 16/6) {
+  .start-screen {
+		width: 74vw;
+		height: 96vh;
+	}
+}
+
+@media only screen and (min-aspect-ratio: 16/9) and (max-aspect-ratio: 16/7) {
+  .start-screen {
+		width: 90vw;
+		height: 96vh;
+	}
+}
+
+@media only screen and (min-aspect-ratio: 16/12) and (max-aspect-ratio: 16/9) {
+  .start-screen {
+		width: 98vw;
+		height: 96vh;
+	}
+}
+
+@media only screen and (max-aspect-ratio: 16/12) {
+  .start-screen {
+		width: 74vw;
+		height: 96vh;
+	}
+}
+
 
 /* Playground page classes */
 .playground-header-container {
