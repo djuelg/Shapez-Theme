@@ -11,22 +11,18 @@ Initially I designed this theme for my own blog, but I decided to make it an ope
 If you want to use it feel free to do so, but be prepared to learn some SVG if you want to adapt the theme to your wishes.
 
 # Features
-- Fullscreen SVG graphic on the homepage for Navigation
+- responsive use of inline SVG
 - Timeline on the homepage
 - Single pages to write your content
-- possibility to add custom page
-- seeing reading time of articles
-- clear and nice to read design
-- having a sidebar navigation, while neccesarry
+- spread some unstructured content on the playground
+- show reading time of articles
+- modern and nice to read design
+- responsive side or top bar, depending on apsect ratio
 - a comment section would be nice to have
-- responsive webdesign
+- responsive webdesign for most common screens
 
-Attention! This theme isn't build with full Internet Explorer Support, nor for devices with a low resolution.
+Attention! This theme isn't build with full Internet Explorer Support, nor for devices with a low resolution (e.g. smartphones) - feel free to create a merge request to add support.
 
 # Special Thanks
 Special thanks goes to Freepik, Daniel Bruce and Plainicon from [www.flaticon.com](http://www.flaticon.com) for their great icons!
 Furthermore I would like to thank [CrimsonRay](https://github.com/CrimsonRay), the creator of the slender-Theme. He inspired me to make my own theme and I reused some of his code.
-
-# TODO:
-- title-screen mit JS skalieren
-- Ordnerstruktur verschieben
