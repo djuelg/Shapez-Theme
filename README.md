@@ -3,8 +3,8 @@ Designed with passion and love.
 Shapez is a modern hugo theme using a lot of SVG graphics.
 SVG is super cool, but be aware - it can also be very nasty and exhausting.
 
-Demo: [http://djuelg-student.github.io/](http://djuelg-student.github.io/)
-Source: [https://github.com/djuelg-student/blogv2](https://github.com/djuelg-student/blogv2)
+Demo: [http://djuelg.github.io/](http://djuelg.github.io/)
+Source: [https://github.com/djuelg/Shapez-Theme](https://github.com/djuelg/Shapez-Theme)
 
 # What it's meant to be
 Initially I designed this theme for my own blog, but I decided to make it an open source project, because I thought other people might like it, too.
