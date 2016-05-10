@@ -1,4 +1,11 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="100%" width="100%" viewBox="0 0 380 1800" preserveAspectRatio="xMidYMid meet">
+<svg version="1.1" 
+  xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" 
+  height="100%" 
+  width="100%" 
+  viewBox="0 0 380 1800" 
+  preserveAspectRatio="xMidYMid meet">
+  
   <defs>
     <filter id="e" color-interpolation-filters="sRGB">
       <feFlood result="flood" flood-opacity=".49" flood-color="#000"/>

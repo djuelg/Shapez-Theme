@@ -1,6 +1,12 @@
 <svg id="alignJustify"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="tiny" width="512px" height="512px" viewBox="0 0 24 24"
+	 xmlns="http://www.w3.org/2000/svg" 
+	 version="1.1" 
+	 baseProfile="tiny" 
+	 width="512px" 
+	 height="512px" 
+	 viewBox="0 0 24 24"
 	 xml:space="preserve">
+	 
 	<g>
 		<path d="M1,4.9h22c0.221,0,0.4-0.18,0.4-0.4S23.221,4.1,23,4.1H1c-0.221,0-0.4,0.18-0.4,0.4S0.779,4.9,1,4.9z"/>
 		<path d="M23,9.1H1c-0.221,0-0.4,0.18-0.4,0.4S0.779,9.9,1,9.9h22c0.221,0,0.4-0.18,0.4-0.4S23.221,9.1,23,9.1z"/>
