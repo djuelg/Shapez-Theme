@@ -15,7 +15,7 @@ googleAnalytics = ""
     name = "djuelg"
 
 [params]
-    # Homepage Start-Screen
+    # Homepage Start-Screen, variables can be left empty
     title_l1 = "Shapez Theme"
     title_l2 = ""
     subtitle_l1 = "Shapez is a theme created for hugo"
@@ -26,7 +26,7 @@ googleAnalytics = ""
 
     message = "I'm a optional important message!"
 
-    # Enter links for the buttons (button one has the house sign)
+    # Enter links for the buttons (button one has the house sign), shouldn't be left empty
     button_1 = "/"
     button_2 = "/playground/"
     button_3 = "/about/"

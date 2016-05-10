@@ -3,35 +3,26 @@ Designed with passion and love.
 Shapez is a modern hugo theme using a lot of SVG graphics.
 SVG is super cool, but be aware - it can also be very nasty and exhausting.
 
-Demo: [](http://djuelg-student.github.io/)
-Source: [](https://github.com/djuelg-student/blogv2)
-
-[add picture]
+Demo: [http://djuelg-student.github.io/](http://djuelg-student.github.io/)
+Source: [https://github.com/djuelg-student/blogv2](https://github.com/djuelg-student/blogv2)
 
 # What it's meant to be
 Initially I designed this theme for my own blog, but I decided to make it an open source project, because I thought other people might like it, too.
 If you want to use it feel free to do so, but be prepared to learn some SVG if you want to adapt the theme to your wishes.
 
 # Features
-- Fullscreen SVG graphic on the homepage for Navigation
+- responsive use of inline SVG
 - Timeline on the homepage
 - Single pages to write your content
-- possibility to add custom page
-- seeing reading time of articles
-- clear and nice to read design
-- having a sidebar navigation, while neccesarry
+- spread some unstructured content on the playground
+- show reading time of articles
+- modern and nice to read design
+- responsive side or top bar, depending on apsect ratio
 - a comment section would be nice to have
-- responsive webdesign
+- responsive webdesign for most common screens
+
+Attention! This theme isn't build with full Internet Explorer Support, nor for devices with a low resolution (e.g. smartphones) - feel free to create a merge request to add support.
 
 # Special Thanks
 Special thanks goes to Freepik, Daniel Bruce and Plainicon from [www.flaticon.com](http://www.flaticon.com) for their great icons!
 Furthermore I would like to thank [CrimsonRay](https://github.com/CrimsonRay), the creator of the slender-Theme. He inspired me to make my own theme and I reused some of his code.
-
-# TODO:
-- Durchsichtige Kreis Hitboxen in SVG integrieren
-- Projekt aufräumen
-- SampleContent hinzufügen
-- Std Frontmatter anpassen
-- Ordnerstruktur verschieben
-- Credits in Readme und theme.toml
-- add "hideshow" for all browsers
