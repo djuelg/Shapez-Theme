@@ -1,6 +1,6 @@
 # Creator: djuelg @ https://github.com/djuelg
 
-# Run via: hugo server --theme=shapez --buildDrafts  --bind="0.0.0.0"
+# Run via: hugo server --theme=shapez --buildDrafts --bind="0.0.0.0"
 
 baseurl = "http://0.0.0.0/"
 title = "Shapez Theme"
