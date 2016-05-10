@@ -18,7 +18,7 @@
 .start-screen {
   display: block;
   width: 98vw;
-  height: 96vh;
+  height: calc(100% - 5vh);
   min-height: 400px;
   text-align: center;
   margin: 0 auto;
@@ -157,15 +157,8 @@
 
 @media only screen and (min-aspect-ratio: 16/9) {
   .start-screen {
-		width: 93vw;
-		height: 98vh;
-	}
-}
-
-@media only screen and (min-aspect-ratio: 16/10) {
-  .start-screen {
 		width: 98vw;
-		height: 96vh;
+		height: calc(100% - 5vh);
 	}
 }
 
