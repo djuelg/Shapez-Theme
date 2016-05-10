@@ -31,5 +31,5 @@ Special thanks goes to Freepik, Daniel Bruce and Plainicon from [www.flaticon.co
 Furthermore I would like to thank [CrimsonRay](https://github.com/CrimsonRay), the creator of the slender-Theme. He inspired me to make my own theme and I reused some of his code.
 
 # TODO:
-- Durchsichtige Kreis Hitboxen in SVG integrieren
+- title-screen mit JS skalieren
 - Ordnerstruktur verschieben
