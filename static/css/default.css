@@ -8,8 +8,9 @@
  *	main-bright:   		  #EFFFFF
  *	complementary: 		  #FF7400
  *  complementary-bright: #FFB03C
- *  dark-gray:    		  #333
+ *  gray-dark:    		  #333
  * 	gray:        		  gray
+ *  gray-bright:		  #ECECEC
  *  black:      	      black
  *	
  */
@@ -461,6 +462,19 @@ li:before {
 	color: #008080;
 	margin-right: 10px;
 	font-weight: bold;
+}
+
+blockquote {
+	border-left-width: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 15px 20px;
+	color: #333;
+	background: #F7FAFB;
+	box-sizing: border-box;
+	border: #E3EDF3 1px solid;
+	border-left: 20px solid #E3EDF3;
+	font-size: 1em;
 }
 
 .wrapper {
