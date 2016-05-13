@@ -477,6 +477,10 @@ blockquote {
 	font-size: 1em;
 }
 
+hr {
+	border:solid #E3EDF3 1px;
+}
+
 .wrapper {
     position: relative;
     min-height: 100%;
