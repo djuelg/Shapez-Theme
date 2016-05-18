@@ -1,0 +1,62 @@
+/**
+ *
+ * CSS for mobile devices
+ */
+
+@media only screen and (max-width: 500px) {
+
+	.start-screen svg {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+
+	.start-screen {
+		height: 60vh;
+		width: 100vw;
+		margin: 0;
+		background-color: #4CABAB;
+	}
+
+	.mobile {
+		display: inline;
+	}
+
+	.mobile div {
+		height: 20vh;
+		display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    box-shadow: 0 4px 2px -2px #333;
+	}
+
+	.mobile div:first-child, .mobile div:first-child:hover {
+		background-color: #333;
+	}
+
+	.mobile a, .mobile a:hover {
+		text-decoration: none;
+		font-size: 2em;
+		color: #EFFFFF !important;
+	}
+
+	.mobile div:hover {
+		background-color: #FF7400;
+	}
+
+	.mobile img {
+		height: 15vh;
+		width: 15vh;
+		text-align: center;
+	}
+
+	.wrapper {
+		min-width: 320px
+	}
+
+	.publish-date, .attention-message {
+		float: initial;
+		text-align: center;
+		margin: 0;
+	}
+}

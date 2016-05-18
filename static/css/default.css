@@ -26,6 +26,11 @@
   overflow: hidden;
 }
 
+.start-screen svg {
+	height: 100%;
+	width: 100%;
+}
+
 .start-screen a {
 	fill: #008080;
 }
@@ -146,6 +151,10 @@
 	text-align: justify;
 	font-size: 1.2em;
 	margin-top: 10px;
+}
+
+.mobile {
+	display: none;
 }
 
 @media only screen and (orientation: portrait) {
@@ -488,7 +497,7 @@ hr {
     height: auto !important;
 }
 
-.publish-date {
+.publish-date, .attention-message {
 	height: 120px;
 	width: 120px;
 	border-radius: 50%;
@@ -509,16 +518,8 @@ hr {
 }
 
 .attention-message {
-	height: 120px;
-	width: 120px;
-	border-radius: 50%;
 	background-color: #FF7400;
-	text-align: center;
-	line-height: 1em;
-	color: #EFFFFF;
-	float: left;
 	margin-top: -38px;
-	margin-right: 20px;
 }
 
 .attention-message h1 {
