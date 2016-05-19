@@ -26,3 +26,4 @@ Attention! This theme isn't build with full Internet Explorer Support - feel fre
 # Special Thanks
 Special thanks goes to Freepik, Daniel Bruce and Plainicon from [www.flaticon.com](http://www.flaticon.com) for their great icons!
 Furthermore I would like to thank [CrimsonRay](https://github.com/CrimsonRay), the creator of the slender-Theme. He inspired me to make my own theme and I reused some of his code.
+Last but not least, I would like to thank the creator and all the contributors at [Hugo](http://gohugo.io) for their great work!
