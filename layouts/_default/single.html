@@ -33,7 +33,8 @@
                 </div>
         	</div>
             <div class="article-meta-inf">
-                <a href="/about/" rel="me">by {{ .Site.Author.name }} </a>  
+                <a href="/about/" rel="me">by {{ .Site.Author.name }} </a>
+                <text> &nbsp; · &nbsp; {{ .Date.Format "2006-01-02" }}</text>
                 <text> &nbsp; · &nbsp; {{ .ReadingTime }} minutes reading time</text>
                 <a href="javascript:void(0);">{{ partial "left.svg" . }}</a>
                 <a href="javascript:void(0);">{{ partial "justify.svg" . }}</a>
