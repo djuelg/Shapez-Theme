@@ -65,7 +65,9 @@
 	}
 
 	.top-nav h3, .top-nav img, .top-nav text {
+		position: absolute;
 		display: none;
+		width: 0;
 	}
 
 	.article-header-container {
@@ -75,7 +77,9 @@
 	}
 
 	.article-header div {
+		position: absolute;
 		display: none;
+		width: 0;
 	}
 
 	blockquote  {
