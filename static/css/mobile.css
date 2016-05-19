@@ -60,7 +60,21 @@
 		margin: 0;
 	}
 
-	.top-nav h3, img, text {
+	.attention-message {
+		display: none;
+	}
+
+	.top-nav h3, .top-nav img, .top-nav text {
+		display: none;
+	}
+
+	.article-header-container {
+		display: flex;
+		justify-content: center;
+	    align-items: center;
+	}
+
+	.article-header div {
 		display: none;
 	}
 
