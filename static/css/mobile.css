@@ -51,12 +51,21 @@
 	}
 
 	.wrapper {
-		min-width: 320px
+		min-width: 320px;
 	}
 
 	.publish-date, .attention-message {
 		float: initial;
 		text-align: center;
+		margin: 0;
+	}
+
+	.top-nav h3, img, text {
+		display: none;
+	}
+
+	blockquote  {
+		padding: 0;
 		margin: 0;
 	}
 }
