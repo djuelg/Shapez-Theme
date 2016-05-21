@@ -1,18 +1,17 @@
 # Creator: djuelg @ https://github.com/djuelg
-
-# Run via: hugo server --theme=shapez --buildDrafts --bind="0.0.0.0"
+# Run via: hugo server --theme=Shapez-Theme --buildDrafts --bind="0.0.0.0"
 
 baseurl = "http://0.0.0.0/"
 title = "Shapez Theme"
+theme = "Shapez-Theme"
+author = "djuelg"
+copyright = "Copyright (c) 2016, djuelg; all rights reserved."
+
 languageCode = "en-US"
 MetaDataFormat = "toml"
-theme = "shapez"
 paginate = 8
 PaginatePath = "page"
 googleAnalytics = ""
-
-[author]
-    name = "djuelg"
 
 [params]
     # Homepage Start-Screen, variables can be left empty
@@ -31,7 +30,6 @@ googleAnalytics = ""
     button_2 = "/playground/"
     button_3 = "/about/"
 
-    footer = "Copyright 2016"
     keywords = "hugo, blog, Shapez, SVG, design"
 
     logo = "/images/logo.png"
