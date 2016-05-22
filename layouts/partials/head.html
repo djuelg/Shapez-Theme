@@ -8,10 +8,10 @@
 {{ "<!-- Site Icon -->" | safeHTML }}
 <link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.logo }}">
 {{ "<!-- Load CSS config -->" | safeHTML }}
-<link rel="stylesheet" href="/css/normalize.css" type="text/css">
-<link rel="stylesheet" href="/css/default.css" type="text/css">
-<link rel="stylesheet" href="/css/mobile.css" type="text/css">
-<link rel="stylesheet" href="/css/code-style.min.css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.css" type="text/css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/default.css" type="text/css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/mobile.css" type="text/css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/code-style.min.css" type="text/css">
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>

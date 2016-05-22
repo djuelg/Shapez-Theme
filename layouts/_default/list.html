@@ -2,7 +2,7 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
         {{ partial "head.html" . }}
-        <script src="/js/single-text-align.js"></script>
+        <script src="{{ .Site.BaseURL }}js/single-text-align.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -11,9 +11,9 @@
                     <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}">
                     <h3>{{ .Site.Title }}</h3>
                     <text>·</text>
-                    <a href="{{ .Site.Params.button_1 }}">Home</a>
-                    <a href="{{ .Site.Params.button_2 }}">Playground</a>
-                    <a href="{{ .Site.Params.button_3 }}" rel="me">About</a>
+                    <a href="{{ .Site.BaseURL }}{{ .Site.Params.button_1 }}">Home</a>
+                    <a href="{{ .Site.BaseURL }}{{ .Site.Params.button_2 }}">Playground</a>
+                    <a href="{{ .Site.BaseURL }}{{ .Site.Params.button_3 }}" rel="me">About</a>
                 </div>
 
                 <div class="side-nav">

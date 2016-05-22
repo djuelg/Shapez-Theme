@@ -2,17 +2,17 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
         {{ partial "head.html" . }}
-        <script src="/js/single-text-align.js"></script>
+        <script src="{{ .Site.BaseURL }}js/single-text-align.js"></script>
     </head>
     <body>
         <div class="wrapper">
             <div class="top-nav">
         		<img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}">
-        		<h3><a href="{{ .Site.Params.button_3 }}" rel="me">{{ .Site.Title }}</a></h3>
+        		<h3><a href="{{ .Site.BaseURL }}{{ .Site.Params.button_3 }}" rel="me">{{ .Site.Title }}</a></h3>
                 <text>·</text>
-    			<a href="{{ .Site.Params.button_1 }}">Home</a>
-    			<a href="{{ .Site.Params.button_2 }}">Playground</a>
-    			<a href="{{ .Site.Params.button_3 }}" rel="me">About</a>
+    			<a href="{{ .Site.BaseURL }}{{ .Site.Params.button_1 }}">Home</a>
+    			<a href="{{ .Site.BaseURL }}{{ .Site.Params.button_2 }}">Playground</a>
+    			<a href="{{ .Site.BaseURL }}{{ .Site.Params.button_3 }}" rel="me">About</a>
                 <text>·</text>              
                     <a href="{{if .PrevInSection }}{{.PrevInSection.Permalink}}{{ else }}javascript:void(0);{{ end }}"
                         {{if not .PrevInSection }} style="color: gray !important; cursor: not-allowed;" {{ end }}>Prev</a>        
@@ -33,7 +33,7 @@
                 </div>
         	</div>
             <div class="article-meta-inf">
-                <a href="/about/" rel="me">by {{ .Site.Author.name }} </a>
+                <a href="{{ .Site.BaseURL }}{{ .Site.Params.button_3 }}" rel="me">by {{ .Site.Author.name }} </a>
                 <text> &nbsp; · &nbsp; {{ .Date.Format "2006-01-02" }}</text>
                 <text> &nbsp; · &nbsp; {{ .ReadingTime }} minutes reading time</text>
                 <a href="javascript:void(0);">{{ partial "left.svg" . }}</a>

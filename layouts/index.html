@@ -8,8 +8,8 @@
             <div class="start-screen">
                 <div class="mobile">
                     <div><img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}"></div>
-                    <div><a href="{{ .Site.Params.button_2 }}">Playground</a></div>
-                    <div><a href="{{ .Site.Params.button_3 }}" rel="me">About</a></div>
+                    <div><a href="{{ .Site.BaseURL }}{{ .Site.Params.button_2 }}">Playground</a></div>
+                    <div><a href="{{ .Site.BaseURL }}{{ .Site.Params.button_3 }}" rel="me">About</a></div>
                 </div>
                 {{ partial "start-screen.svg" . }}
             </div>
