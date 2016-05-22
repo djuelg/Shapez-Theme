@@ -10,7 +10,6 @@ copyright = "Copyright (c) 2016, djuelg; all rights reserved."
     
 languageCode = "en-US"
 MetaDataFormat = "toml"
-paginate = 8
 PaginatePath = "page"
 googleAnalytics = ""
 
@@ -35,4 +34,6 @@ googleAnalytics = ""
 
     logo = "images/logo.png"
     logo_start_screen_rotation = "19"
+    # This is a workaround to the original paginate param, to apply x articles per page AND sort by date
+    paginate = 2
     keywords = "hugo, blog, Shapez, SVG, design"
