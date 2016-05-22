@@ -35,13 +35,13 @@
   </defs>
 
   <image id="svg-image-3" y="234.615" x="1114.735"
-    preserveAspectRatio="none" height="2009" width="2009" image-rendering="optimizeQuality"
+    preserveAspectRatio="none" height="2009" width="2009" image-rendering="{{ .Site.Params.start_screen_image_quality }}"
     xlink:href="{{ .Site.BaseURL }}images/start-screen/picture1.png"/>
   <image id="svg-image-2" y="234.615" x="1114.735"
-    preserveAspectRatio="none" height="2009" width="2009" image-rendering="optimizeQuality"
+    preserveAspectRatio="none" height="2009" width="2009" image-rendering="{{ .Site.Params.start_screen_image_quality }}"
     xlink:href="{{ .Site.BaseURL }}images/start-screen/picture2.png"/>
   <image id="svg-image-1" y="234.615" x="1114.735"
-    preserveAspectRatio="none" height="2009" width="2009" image-rendering="optimizeQuality"
+    preserveAspectRatio="none" height="2009" width="2009" image-rendering="{{ .Site.Params.start_screen_image_quality }}"
     xlink:href="{{ .Site.BaseURL }}images/start-screen/picture3.png"/>
 
   <g id="g3557">
@@ -103,6 +103,8 @@
   </g>
 
   <image y="-602.681" x="3238.513" id="image3651"
-    preserveAspectRatio="none" height="470.669" width="470.669" transform="rotate(19)" image-rendering="optimizeQuality"
+    preserveAspectRatio="none" height="470.669" width="470.669"
+    transform="rotate({{ .Site.Params.logo_start_screen_rotation }})"
+    image-rendering="{{ .Site.Params.start_screen_image_quality }}"
     xlink:href="{{ .Site.BaseURL }}{{ .Site.Params.logo }}"/>
 </svg>

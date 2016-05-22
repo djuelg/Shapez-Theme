@@ -25,12 +25,14 @@ googleAnalytics = ""
     subtitle_link = ""
 
     message = "I'm a optional important message!"
+    # Possible values are: auto | optimizeSpeed | optimizeQuality
+    start_screen_image_quality = "auto"
 
     # Enter links for the buttons (button one has the house sign), shouldn't be left empty
     button_1 = ""
     button_2 = "playground/"
     button_3 = "about/"
 
-    keywords = "hugo, blog, Shapez, SVG, design"
-
     logo = "images/logo.png"
+    logo_start_screen_rotation = "19"
+    keywords = "hugo, blog, Shapez, SVG, design"
