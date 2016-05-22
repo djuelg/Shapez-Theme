@@ -82,6 +82,6 @@
       {{if or (not .NextInSection) (in .Permalink .Site.Params.button_2) }} fill="#4CABAB" style="cursor: not-allowed;" {{end}}/>
     </a>    
 
-    <image y="797.66" x="123.81" xlink:href="{{ .Site.Params.logo }}" preserveAspectRatio="xMidYMid meet" height="230.68" width="230.68" image-rendering="optimizeQuality"/>
+    <image y="797.66" x="123.81" xlink:href="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" preserveAspectRatio="xMidYMid meet" height="230.68" width="230.68" image-rendering="optimizeQuality"/>
   </g>
 </svg>
