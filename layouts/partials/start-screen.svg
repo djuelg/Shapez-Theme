@@ -32,6 +32,12 @@
       <stop offset="66%" style="stop-color:rgb(76,171,171);stop-opacity:1" />
       <stop offset="100%" style="stop-color:rgb(255,116,0);stop-opacity:1" />
     </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10 10" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <image id="svg-image-3" y="234.615" x="1114.735"
@@ -85,6 +91,10 @@
 
   <g id="svg-title">
     {{ if not (eq .Site.Params.title_link "") }}<a xlink:title="Learn more about this page" xlink:href="{{ .Site.Params.title_link }}"> {{ end }}
+      <text style="filter: url(#glow); fill: #000">
+        <tspan y="950" x="2140.7">{{ .Site.Params.title_l1 }}</tspan>
+        <tspan y="1100" x="2140.7">{{ .Site.Params.title_l2 }}</tspan>
+      </text>
       <text>
         <tspan y="950" x="2140.7">{{ .Site.Params.title_l1 }}</tspan>
         <tspan y="1100" x="2140.7">{{ .Site.Params.title_l2 }}</tspan>
@@ -94,6 +104,11 @@
 
   <g id="svg-comment">
     {{ if not (eq .Site.Params.subtitle_link "") }}<a xlink:title="Learn more about this page" xlink:href="{{ .Site.Params.subtitle_link }}"> {{ end }}
+      <text style="filter: url(#glow); fill: #000">
+       <tspan y="1400" x="2114.7">{{ .Site.Params.subtitle_l1 }}</tspan>
+       <tspan y="1510" x="2114.7">{{ .Site.Params.subtitle_l2 }}</tspan>
+       <tspan y="1620" x="2114.7">{{ .Site.Params.subtitle_l3 }}</tspan>
+      </text>
       <text>
        <tspan y="1400" x="2114.7">{{ .Site.Params.subtitle_l1 }}</tspan>
        <tspan y="1510" x="2114.7">{{ .Site.Params.subtitle_l2 }}</tspan>
