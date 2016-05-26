@@ -473,6 +473,15 @@ li:before {
 	font-weight: bold;
 }
 
+ul li ul li {
+	margin-left: 10px;
+}
+
+ul li ul li:before {
+	margin-left: 10px;
+	content: "-";
+}
+
 blockquote {
 	border-left-width: 10px;
 	border-top-right-radius: 5px;

@@ -24,7 +24,7 @@ googleAnalytics = ""
     title_link = "http://djuelg.github.io/about/"
     subtitle_link = ""
 
-    message = "I'm a optional important message!"
+    message = "I'm an optional important message!"
     # Possible values are: auto | optimizeSpeed | optimizeQuality
     start_screen_image_quality = "auto"
 
