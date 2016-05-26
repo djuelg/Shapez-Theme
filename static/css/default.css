@@ -262,11 +262,8 @@
 .playground-body {
 	max-width: 900px;
 	position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin: 10px auto 0 auto;
+    padding: 0 25px 100px 25px;
     font-size: 1.2em;
     text-align: justify;
 }
@@ -300,11 +297,8 @@
 #article-body {
 	max-width: 900px;
 	position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin: 40px auto 0 auto;
+    padding: 0 25px 100px 25px;
     font-size: 1.2em;
     text-align: justify;
     padding-bottom: 50px;
