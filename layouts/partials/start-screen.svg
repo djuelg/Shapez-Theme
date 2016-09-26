@@ -3,7 +3,7 @@
   xmlns="http://www.w3.org/2000/svg" 
   xmlns:xlink="http://www.w3.org/1999/xlink"
   viewBox="-160 0 4600 2245.7" 
-  preserveAspectRatio="xMidYMin slice">
+  preserveAspectRatio="xMidYMin meet">
   
   <defs id="defs3522">
     <filter id="a" color-interpolation-filters="sRGB">
