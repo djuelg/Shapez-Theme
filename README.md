@@ -10,6 +10,12 @@ Source: [https://github.com/djuelg/Shapez-Theme](https://github.com/djuelg/Shape
 Initially I designed this theme for my own blog, but I decided to make it an open source project, because I thought other people might like it, too.
 If you want to use it feel free to do so, but be prepared to learn some SVG if you want to adapt the theme to your wishes.
 
+# How to use it
+- copy the file sample-config.toml to your project folder
+- replace the file with your config file
+- adapt the config according to your wishes
+- you are good to go
+
 # Features
 - responsive use of inline SVG
 - Timeline on the homepage
