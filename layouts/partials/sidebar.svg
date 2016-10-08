@@ -73,13 +73,13 @@
     <a class="side-nav" xlink:title="Previous Article" xlink:href="{{if .PrevInSection}}{{.PrevInSection.Permalink}}{{else}}javascript:void(0);{{end}}">
       <circle cx="185" cy="550" r="40" fill="transparent" />
       <path d="M1149 1784c-233-240-425-440-427-444-1-4 55-62 125-130s269-261 442-429l314-306 137 143 137 143-191 187c-105 103-240 234-299 292l-108 105 291 300 290 299-137 138c-76 76-140 138-143 138s-197-196-431-436z" transform="matrix(.056 0 0 -.057 112.114 626.942)" filter="url(#c)"
-      {{if or (not .PrevInSection) (in .Permalink .Site.Params.button_2) }} fill="#4CABAB" style="cursor: not-allowed;" {{end}}/>
+      {{if (not .PrevInSection) }} fill="#4CABAB" style="cursor: not-allowed;" {{end}}/>
     </a>
     
     <a class="side-nav" xlink:title="Next Article" xlink:href="{{if .NextInSection}}{{.NextInSection.Permalink}}{{else}}javascript:void(0);{{end}}">
       <circle cx="280" cy="550" r="40" fill="transparent" />
       <path d="M1149 1784c-233-240-425-440-427-444-1-4 55-62 125-130s269-261 442-429l314-306 137 143 137 143-191 187c-105 103-240 234-299 292l-108 105 291 300 290 299-137 138c-76 76-140 138-143 138s-197-196-431-436z" transform="matrix(-.056 0 0 -.057 358.62 626.815)" filter="url(#d)"
-      {{if or (not .NextInSection) (in .Permalink .Site.Params.button_2) }} fill="#4CABAB" style="cursor: not-allowed;" {{end}}/>
+      {{if (not .NextInSection) }} fill="#4CABAB" style="cursor: not-allowed;" {{end}}/>
     </a>    
 
     <image y="797.66" x="123.81" xlink:href="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" preserveAspectRatio="xMidYMid meet" height="230.68" width="230.68" image-rendering="optimizeQuality"/>

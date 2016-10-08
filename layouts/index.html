@@ -15,12 +15,12 @@
             </div>
 
             <div id="scroll-down" class="timeline-container">
-            {{ if .Site.Params.message }}
+            {{ if or .Site.Params.message (and (not .Site.Params.title_l1) (not .Site.Params.title_l2)) }}
                 <div class="timeline-post" style="padding-bottom: 50px;">
                     <div class="attention-message">
                         </br><h1>!</h1>
                     </div>
-                    <h3>{{ .Site.Params.message }}</h3>
+                    <h3>{{if and (not .Site.Params.title_l1) (not .Site.Params.title_l2)}}Error: Please use sample-config.toml from Shapez-Theme folder as boilerplate config.{{ else }}{{ .Site.Params.message }}{{ end }}</h3>
                 </div>
             {{ end }}
 
