@@ -441,7 +441,7 @@ li {
     padding-left: 16px;
 }
 
-li:before {
+ul > li::before {
 	content: "•";
 	color: #008080;
 	margin-right: 10px;
@@ -452,7 +452,7 @@ ul li ul li {
 	margin-left: 10px;
 }
 
-ul li ul li:before {
+ul li ul li::before {
 	margin-left: 10px;
 	content: "-";
 }
