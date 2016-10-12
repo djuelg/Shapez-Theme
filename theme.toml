@@ -3,8 +3,8 @@ license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
 homepage = ""
 tags = ["hugo", "blog", "Shapez", "SVG", "design"]
-min_version = 0.14
+min_version = 0.16
 
 [author]
-  name = "Dominik Juelg"
+  name = "djuelg"
   homepage = "https://github.com/djuelg"

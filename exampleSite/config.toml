@@ -14,6 +14,10 @@ PaginatePath = "page"
 googleAnalytics = ""
 
 [params]
+    # Meta Information
+    name = "djuelg"
+    description = "This is the sites description, which will be found in the meta tags."
+
     # Homepage Start-Screen, variables can be left empty, links dont start with /
     title_l1 = "Shapez Theme"
     title_l2 = ""
