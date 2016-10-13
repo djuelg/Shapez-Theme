@@ -30,6 +30,5 @@ If you want to use it feel free to do so, but be prepared to learn some SVG if y
 Attention! This theme isn't build with full Internet Explorer Support - feel free to create a merge request to add support.
 
 # Special Thanks
-Special thanks goes to Freepik, Daniel Bruce and Plainicon from [www.flaticon.com](http://www.flaticon.com) for their great icons!
-Furthermore I would like to thank [CrimsonRay](https://github.com/CrimsonRay), the creator of the slender-Theme. He inspired me to make my own theme and I reused some of his code.
+Special thanks goes to [Freepik](http://www.flaticon.com/authors/freepik), [Daniel Bruce](http://www.flaticon.com/authors/Daniel%20Bruce) and [Plainicon](http://www.flaticon.com/authors/Plainicon) from [www.flaticon.com](http://www.flaticon.com) for their great icons! Furthermore I would like to thank [CrimsonRay](https://github.com/CrimsonRay), the creator of the slender-Theme. He inspired me to make my own theme and I reused some of his code.
 Last but not least, I would like to thank the creator and all the contributors at [Hugo](http://gohugo.io) for their great work!
