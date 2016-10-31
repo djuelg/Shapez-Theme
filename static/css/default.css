@@ -243,7 +243,7 @@
 /* Single page classes */
 
 .article-header-container {
-	height: 140px; 
+	height: 150px; 
 	margin-top: 35px;
 	background-color: #4CABAB;
 	color: #EFFFFF;
@@ -482,8 +482,8 @@ hr {
 }
 
 .publish-date, .attention-message {
-	height: 120px;
-	width: 120px;
+	min-height: 120px;
+	min-width: 120px;
 	border-radius: 50%;
 	background-color: #333;
 	text-align: center;
