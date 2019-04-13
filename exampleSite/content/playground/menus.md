@@ -169,12 +169,12 @@ The following is an example:
                 </a>
                 <ul class="sub">
                     {{ range .Children }}
-                    <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
+                    <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.Permalink}}"> {{ .Name }} </a> </li>
                     {{ end }}
                 </ul>
               {{else}}
                 <li>
-                <a class="" href="{{.URL}}">
+                <a class="" href="{{.Permalink}}">
                     {{ .Pre }}
                     <span>{{ .Name }}</span>
                 </a>
@@ -206,7 +206,7 @@ This will create a menu with all the sections as menu items and all the sections
   <nav class="sidebar-nav">
         {{ $currentNode := . }}
         {{ range .Site.Menus.main }}
-        <a class="sidebar-nav-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+        <a class="sidebar-nav-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.Permalink}}">{{ .Name }}</a>
         {{ end }}
     </nav>
 
