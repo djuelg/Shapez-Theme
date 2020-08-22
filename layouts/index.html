@@ -24,7 +24,7 @@
                 </div>
             {{ end }}
 
-            {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") 2 }}
+            {{ $paginator := .Paginate (where .Site.RegularPages "Section" "post") 2 }}
             {{ range $paginator.Pages.ByDate.Reverse }}
 
                 <div class="timeline-post">
