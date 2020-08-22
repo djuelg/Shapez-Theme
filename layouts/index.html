@@ -24,8 +24,9 @@
                 </div>
             {{ end }}
 
-            {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+            {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") 2 }}
             {{ range $paginator.Pages.ByDate.Reverse }}
+
                 <div class="timeline-post">
                     <div class="publish-date">
                         </br></br><h3>{{ .Date.Format "02" }}</h3></br>{{ .Date.Format "January" | upper }}

@@ -15,7 +15,7 @@
      style="fill:#333;"/>
     
   <g>
-    <a xlink:title="First Page" xlink:href="{{ .Paginator.First.RelPermalink }}">
+    <a xlink:title="First Page" xlink:href="{{ .Paginator.First.URL }}">
       <path transform="matrix(0.1,0,0,-0.1,0.11842105,504.11841)"
          d="m 1770,2133 c -151,-14 -278,-71 -398,-178 -58,-52 -159,-169 -267,-310 -146,-189 -253,-272 -380,-296 -154,-28 -417,36 -537,132 -20,16 -39,29 -42,29 -3,0 4,-24 15,-52 179,-458 646,-727 1269,-729 399,-2 770,137 1029,386 93,89 152,162 205,253 l 36,60 0,132 c 0,129 -1,132 -29,173 -99,142 -312,289 -506,350 -118,36 -297,59 -395,50 z"
          id="path3342" />
@@ -35,7 +35,7 @@
     </a>
   </g>
   <g>
-    <a xlink:title="Last Page" xlink:href="{{ .Paginator.Last.RelPermalink }}#moustage">
+    <a xlink:title="Last Page" xlink:href="{{ .Paginator.Last.URL }}#moustage">
       <path transform="matrix(-0.1,0,0,-0.1,539.90695,504.03403)"
          d="m 1770,2133 c -151,-14 -278,-71 -398,-178 -58,-52 -159,-169 -267,-310 -146,-189 -253,-272 -380,-296 -154,-28 -417,36 -537,132 -20,16 -39,29 -42,29 -3,0 4,-24 15,-52 179,-458 646,-727 1269,-729 399,-2 770,137 1029,386 93,89 152,162 205,253 l 36,60 0,132 c 0,129 -1,132 -29,173 -99,142 -312,289 -506,350 -118,36 -297,59 -395,50 z"
          id="path3342-4" />
@@ -55,7 +55,7 @@
   </g>
 
   <a xlink:title="Next Page"
-    xlink:href="{{ if .Paginator.HasNext }}{{ .Paginator.Next.RelPermalink }}#scroll-down
+    xlink:href="{{ if .Paginator.HasNext }}{{ .Paginator.Next.URL }}#scroll-down
     {{ else }}javascript:void(0);{{ end }}">
     <g transform="matrix(0.94832872,0,0,0.94832872,-14.890385,-713.8633)">
       <path transform="matrix(-0.10710526,0,0,-0.10710526,523.94437,987.8728)"
@@ -85,7 +85,7 @@
   </a>
 
   <a xlink:title="Previous Page"
-    xlink:href="{{ if .Paginator.HasPrev }}{{ .Paginator.Prev.RelPermalink }}#scroll-down
+    xlink:href="{{ if .Paginator.HasPrev }}{{ .Paginator.Prev.URL }}#scroll-down
     {{ else }}javascript:void(0);{{ end }}">
     <g transform="matrix(0.94832872,0,0,0.94832872,-14.890385,-713.8633)">
       <path transform="matrix(0.10710526,0,0,-0.10710526,64.290535,984.87746)"
