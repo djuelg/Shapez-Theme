@@ -4,7 +4,7 @@
 baseurl = "http://0.0.0.0/"
 title = "Shapez Theme"
 theme = "Shapez-Theme"
-copyright = "Copyright (c) 2016, djuelg; all rights reserved."
+copyright = "Copyright (c) 2020, djuelg; all rights reserved."
 [author]
     name = "djuelg"
     

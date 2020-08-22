@@ -1,9 +1,9 @@
 name = "Shapez Theme"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-homepage = ""
+licenselink = "https://opensource.org/licenses/MIT"
+homepage = "https://github.com/djuelg/Shapez-Theme"
 tags = ["hugo", "blog", "Shapez", "SVG", "design"]
-min_version = 0.16
+min_version = 0.74
 
 [author]
   name = "djuelg"
