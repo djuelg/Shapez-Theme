@@ -3,13 +3,14 @@
 
 baseurl = "http://0.0.0.0/"
 title = "Shapez Theme"
-theme = "Shapez-Theme"
+theme = "shapez"
 copyright = "Copyright (c) 2020, djuelg; all rights reserved."
 [author]
     name = "djuelg"
     
 languageCode = "en-US"
 MetaDataFormat = "toml"
+paginate = 2
 PaginatePath = "page"
 googleAnalytics = ""
 
@@ -39,6 +40,3 @@ googleAnalytics = ""
 
     logo = "images/logo.png"
     logo_start_screen_rotation = "19"
-    # This is a workaround to the original paginate param, to apply x articles per page AND sort by date
-    paginate = 2
-    keywords = "hugo, blog, Shapez, SVG, design"
